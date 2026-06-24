@@ -1,0 +1,4955 @@
+{
+  "fetched_at": "2026-06-18T07:31:21.440824+00:00",
+  "source": "https://www.craigslist.org/about/sites",
+  "sites": [
+    {
+      "subdomain": "aberdeen",
+      "name": "aberdeen",
+      "url": "https://aberdeen.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "abilene",
+      "name": "abilene",
+      "url": "https://abilene.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "acapulco",
+      "name": "acapulco",
+      "url": "https://acapulco.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Mexico"
+    },
+    {
+      "subdomain": "adelaide",
+      "name": "adelaide",
+      "url": "https://adelaide.craigslist.org",
+      "section": "Oceania",
+      "subsection": "Australia"
+    },
+    {
+      "subdomain": "ahmedabad",
+      "name": "ahmedabad",
+      "url": "https://ahmedabad.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "India"
+    },
+    {
+      "subdomain": "akroncanton",
+      "name": "akron / canton",
+      "url": "https://akroncanton.craigslist.org",
+      "section": "US",
+      "subsection": "Ohio"
+    },
+    {
+      "subdomain": "albanyga",
+      "name": "albany",
+      "url": "https://albanyga.craigslist.org",
+      "section": "US",
+      "subsection": "Georgia"
+    },
+    {
+      "subdomain": "albany",
+      "name": "albany",
+      "url": "https://albany.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "albuquerque",
+      "name": "albuquerque",
+      "url": "https://albuquerque.craigslist.org",
+      "section": "US",
+      "subsection": "New Mexico"
+    },
+    {
+      "subdomain": "alicante",
+      "name": "alicante",
+      "url": "https://alicante.craigslist.org",
+      "section": "Europe",
+      "subsection": "Spain"
+    },
+    {
+      "subdomain": "altoona",
+      "name": "altoona-johnstown",
+      "url": "https://altoona.craigslist.org",
+      "section": "US",
+      "subsection": "Pennsylvania"
+    },
+    {
+      "subdomain": "amarillo",
+      "name": "amarillo",
+      "url": "https://amarillo.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "ames",
+      "name": "ames",
+      "url": "https://ames.craigslist.org",
+      "section": "US",
+      "subsection": "Iowa"
+    },
+    {
+      "subdomain": "amsterdam",
+      "name": "amsterdam / randstad",
+      "url": "https://amsterdam.craigslist.org",
+      "section": "Europe",
+      "subsection": "Netherlands"
+    },
+    {
+      "subdomain": "anchorage",
+      "name": "anchorage / mat-su",
+      "url": "https://anchorage.craigslist.org",
+      "section": "US",
+      "subsection": "Alaska"
+    },
+    {
+      "subdomain": "annarbor",
+      "name": "ann arbor",
+      "url": "https://annarbor.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "annapolis",
+      "name": "annapolis",
+      "url": "https://annapolis.craigslist.org",
+      "section": "US",
+      "subsection": "Maryland"
+    },
+    {
+      "subdomain": "appleton",
+      "name": "appleton-oshkosh-FDL",
+      "url": "https://appleton.craigslist.org",
+      "section": "US",
+      "subsection": "Wisconsin"
+    },
+    {
+      "subdomain": "asheville",
+      "name": "asheville",
+      "url": "https://asheville.craigslist.org",
+      "section": "US",
+      "subsection": "North Carolina"
+    },
+    {
+      "subdomain": "ashtabula",
+      "name": "ashtabula",
+      "url": "https://ashtabula.craigslist.org",
+      "section": "US",
+      "subsection": "Ohio"
+    },
+    {
+      "subdomain": "athensga",
+      "name": "athens",
+      "url": "https://athensga.craigslist.org",
+      "section": "US",
+      "subsection": "Georgia"
+    },
+    {
+      "subdomain": "athensohio",
+      "name": "athens",
+      "url": "https://athensohio.craigslist.org",
+      "section": "US",
+      "subsection": "Ohio"
+    },
+    {
+      "subdomain": "atlanta",
+      "name": "atlanta",
+      "url": "https://atlanta.craigslist.org",
+      "section": "US",
+      "subsection": "Georgia"
+    },
+    {
+      "subdomain": "auburn",
+      "name": "auburn",
+      "url": "https://auburn.craigslist.org",
+      "section": "US",
+      "subsection": "Alabama"
+    },
+    {
+      "subdomain": "auckland",
+      "name": "auckland",
+      "url": "https://auckland.craigslist.org",
+      "section": "Oceania",
+      "subsection": "New Zealand"
+    },
+    {
+      "subdomain": "augusta",
+      "name": "augusta",
+      "url": "https://augusta.craigslist.org",
+      "section": "US",
+      "subsection": "Georgia"
+    },
+    {
+      "subdomain": "austin",
+      "name": "austin",
+      "url": "https://austin.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "bacolod",
+      "name": "bacolod",
+      "url": "https://bacolod.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Philippines"
+    },
+    {
+      "subdomain": "bajasur",
+      "name": "baja california sur",
+      "url": "https://bajasur.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Mexico"
+    },
+    {
+      "subdomain": "bakersfield",
+      "name": "bakersfield",
+      "url": "https://bakersfield.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "baleares",
+      "name": "baleares",
+      "url": "https://baleares.craigslist.org",
+      "section": "Europe",
+      "subsection": "Spain"
+    },
+    {
+      "subdomain": "baltimore",
+      "name": "baltimore",
+      "url": "https://baltimore.craigslist.org",
+      "section": "US",
+      "subsection": "Maryland"
+    },
+    {
+      "subdomain": "bangalore",
+      "name": "bangalore",
+      "url": "https://bangalore.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "India"
+    },
+    {
+      "subdomain": "bangladesh",
+      "name": "bangladesh",
+      "url": "https://bangladesh.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Bangladesh"
+    },
+    {
+      "subdomain": "barcelona",
+      "name": "barcelona",
+      "url": "https://barcelona.craigslist.org",
+      "section": "Europe",
+      "subsection": "Spain"
+    },
+    {
+      "subdomain": "barrie",
+      "name": "barrie",
+      "url": "https://barrie.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "basel",
+      "name": "basel",
+      "url": "https://basel.craigslist.org",
+      "section": "Europe",
+      "subsection": "Switzerland"
+    },
+    {
+      "subdomain": "bath",
+      "name": "bath",
+      "url": "https://bath.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "batonrouge",
+      "name": "baton rouge",
+      "url": "https://batonrouge.craigslist.org",
+      "section": "US",
+      "subsection": "Louisiana"
+    },
+    {
+      "subdomain": "battlecreek",
+      "name": "battle creek",
+      "url": "https://battlecreek.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "beaumont",
+      "name": "beaumont / port arthur",
+      "url": "https://beaumont.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "beijing",
+      "name": "beijing",
+      "url": "https://beijing.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "China"
+    },
+    {
+      "subdomain": "beirut",
+      "name": "beirut, lebanon",
+      "url": "https://beirut.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Lebanon"
+    },
+    {
+      "subdomain": "belfast",
+      "name": "belfast",
+      "url": "https://belfast.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "brussels",
+      "name": "belgium",
+      "url": "https://brussels.craigslist.org",
+      "section": "Europe",
+      "subsection": "Belgium"
+    },
+    {
+      "subdomain": "belleville",
+      "name": "belleville",
+      "url": "https://belleville.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "bellingham",
+      "name": "bellingham",
+      "url": "https://bellingham.craigslist.org",
+      "section": "US",
+      "subsection": "Washington"
+    },
+    {
+      "subdomain": "belohorizonte",
+      "name": "belo horizonte",
+      "url": "https://belohorizonte.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Brazil"
+    },
+    {
+      "subdomain": "bemidji",
+      "name": "bemidji",
+      "url": "https://bemidji.craigslist.org",
+      "section": "US",
+      "subsection": "Minnesota"
+    },
+    {
+      "subdomain": "bend",
+      "name": "bend",
+      "url": "https://bend.craigslist.org",
+      "section": "US",
+      "subsection": "Oregon"
+    },
+    {
+      "subdomain": "berlin",
+      "name": "berlin",
+      "url": "https://berlin.craigslist.org",
+      "section": "Europe",
+      "subsection": "Germany"
+    },
+    {
+      "subdomain": "bern",
+      "name": "bern",
+      "url": "https://bern.craigslist.org",
+      "section": "Europe",
+      "subsection": "Switzerland"
+    },
+    {
+      "subdomain": "bhubaneswar",
+      "name": "bhubaneswar",
+      "url": "https://bhubaneswar.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "India"
+    },
+    {
+      "subdomain": "naga",
+      "name": "bicol region",
+      "url": "https://naga.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Philippines"
+    },
+    {
+      "subdomain": "bilbao",
+      "name": "bilbao",
+      "url": "https://bilbao.craigslist.org",
+      "section": "Europe",
+      "subsection": "Spain"
+    },
+    {
+      "subdomain": "billings",
+      "name": "billings",
+      "url": "https://billings.craigslist.org",
+      "section": "US",
+      "subsection": "Montana"
+    },
+    {
+      "subdomain": "binghamton",
+      "name": "binghamton",
+      "url": "https://binghamton.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "bham",
+      "name": "birmingham",
+      "url": "https://bham.craigslist.org",
+      "section": "US",
+      "subsection": "Alabama"
+    },
+    {
+      "subdomain": "birmingham",
+      "name": "birmingham / west mids",
+      "url": "https://birmingham.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "bismarck",
+      "name": "bismarck",
+      "url": "https://bismarck.craigslist.org",
+      "section": "US",
+      "subsection": "North Dakota"
+    },
+    {
+      "subdomain": "bloomington",
+      "name": "bloomington",
+      "url": "https://bloomington.craigslist.org",
+      "section": "US",
+      "subsection": "Indiana"
+    },
+    {
+      "subdomain": "bn",
+      "name": "bloomington-normal",
+      "url": "https://bn.craigslist.org",
+      "section": "US",
+      "subsection": "Illinois"
+    },
+    {
+      "subdomain": "boise",
+      "name": "boise",
+      "url": "https://boise.craigslist.org",
+      "section": "US",
+      "subsection": "Idaho"
+    },
+    {
+      "subdomain": "lapaz",
+      "name": "bolivia",
+      "url": "https://lapaz.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Bolivia"
+    },
+    {
+      "subdomain": "bologna",
+      "name": "bologna",
+      "url": "https://bologna.craigslist.org",
+      "section": "Europe",
+      "subsection": "Italy"
+    },
+    {
+      "subdomain": "boone",
+      "name": "boone",
+      "url": "https://boone.craigslist.org",
+      "section": "US",
+      "subsection": "North Carolina"
+    },
+    {
+      "subdomain": "bordeaux",
+      "name": "bordeaux",
+      "url": "https://bordeaux.craigslist.org",
+      "section": "Europe",
+      "subsection": "France"
+    },
+    {
+      "subdomain": "boston",
+      "name": "boston",
+      "url": "https://boston.craigslist.org",
+      "section": "US",
+      "subsection": "Massachusetts"
+    },
+    {
+      "subdomain": "boulder",
+      "name": "boulder",
+      "url": "https://boulder.craigslist.org",
+      "section": "US",
+      "subsection": "Colorado"
+    },
+    {
+      "subdomain": "bgky",
+      "name": "bowling green",
+      "url": "https://bgky.craigslist.org",
+      "section": "US",
+      "subsection": "Kentucky"
+    },
+    {
+      "subdomain": "bozeman",
+      "name": "bozeman",
+      "url": "https://bozeman.craigslist.org",
+      "section": "US",
+      "subsection": "Montana"
+    },
+    {
+      "subdomain": "brainerd",
+      "name": "brainerd",
+      "url": "https://brainerd.craigslist.org",
+      "section": "US",
+      "subsection": "Minnesota"
+    },
+    {
+      "subdomain": "brantford",
+      "name": "brantford-woodstock",
+      "url": "https://brantford.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "brasilia",
+      "name": "brasilia",
+      "url": "https://brasilia.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Brazil"
+    },
+    {
+      "subdomain": "bremen",
+      "name": "bremen",
+      "url": "https://bremen.craigslist.org",
+      "section": "Europe",
+      "subsection": "Germany"
+    },
+    {
+      "subdomain": "brighton",
+      "name": "brighton",
+      "url": "https://brighton.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "brisbane",
+      "name": "brisbane",
+      "url": "https://brisbane.craigslist.org",
+      "section": "Oceania",
+      "subsection": "Australia"
+    },
+    {
+      "subdomain": "bristol",
+      "name": "bristol",
+      "url": "https://bristol.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "rennes",
+      "name": "brittany",
+      "url": "https://rennes.craigslist.org",
+      "section": "Europe",
+      "subsection": "France"
+    },
+    {
+      "subdomain": "miami",
+      "name": "broward county",
+      "url": "https://miami.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "brownsville",
+      "name": "brownsville",
+      "url": "https://brownsville.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "brunswick",
+      "name": "brunswick",
+      "url": "https://brunswick.craigslist.org",
+      "section": "US",
+      "subsection": "Georgia"
+    },
+    {
+      "subdomain": "budapest",
+      "name": "budapest",
+      "url": "https://budapest.craigslist.org",
+      "section": "Europe",
+      "subsection": "Hungary"
+    },
+    {
+      "subdomain": "buenosaires",
+      "name": "buenos aires",
+      "url": "https://buenosaires.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Argentina"
+    },
+    {
+      "subdomain": "buffalo",
+      "name": "buffalo",
+      "url": "https://buffalo.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "bulgaria",
+      "name": "bulgaria",
+      "url": "https://bulgaria.craigslist.org",
+      "section": "Europe",
+      "subsection": "Bulgaria"
+    },
+    {
+      "subdomain": "butte",
+      "name": "butte",
+      "url": "https://butte.craigslist.org",
+      "section": "US",
+      "subsection": "Montana"
+    },
+    {
+      "subdomain": "cadiz",
+      "name": "cadiz",
+      "url": "https://cadiz.craigslist.org",
+      "section": "Europe",
+      "subsection": "Spain"
+    },
+    {
+      "subdomain": "cdo",
+      "name": "cagayan de oro",
+      "url": "https://cdo.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Philippines"
+    },
+    {
+      "subdomain": "cairns",
+      "name": "cairns",
+      "url": "https://cairns.craigslist.org",
+      "section": "Oceania",
+      "subsection": "Australia"
+    },
+    {
+      "subdomain": "calgary",
+      "name": "calgary",
+      "url": "https://calgary.craigslist.org",
+      "section": "Canada",
+      "subsection": "Alberta"
+    },
+    {
+      "subdomain": "cambridge",
+      "name": "cambridge, UK",
+      "url": "https://cambridge.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "canarias",
+      "name": "canarias",
+      "url": "https://canarias.craigslist.org",
+      "section": "Europe",
+      "subsection": "Spain"
+    },
+    {
+      "subdomain": "canberra",
+      "name": "canberra",
+      "url": "https://canberra.craigslist.org",
+      "section": "Oceania",
+      "subsection": "Australia"
+    },
+    {
+      "subdomain": "capecod",
+      "name": "cape cod / islands",
+      "url": "https://capecod.craigslist.org",
+      "section": "US",
+      "subsection": "Massachusetts"
+    },
+    {
+      "subdomain": "capetown",
+      "name": "cape town",
+      "url": "https://capetown.craigslist.org",
+      "section": "Africa",
+      "subsection": "South Africa"
+    },
+    {
+      "subdomain": "cardiff",
+      "name": "cardiff / wales",
+      "url": "https://cardiff.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "caribbean",
+      "name": "caribbean islands",
+      "url": "https://caribbean.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Caribbean Islands"
+    },
+    {
+      "subdomain": "cariboo",
+      "name": "cariboo",
+      "url": "https://cariboo.craigslist.org",
+      "section": "Canada",
+      "subsection": "British Columbia"
+    },
+    {
+      "subdomain": "catskills",
+      "name": "catskills",
+      "url": "https://catskills.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "cebu",
+      "name": "cebu",
+      "url": "https://cebu.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Philippines"
+    },
+    {
+      "subdomain": "cedarrapids",
+      "name": "cedar rapids",
+      "url": "https://cedarrapids.craigslist.org",
+      "section": "US",
+      "subsection": "Iowa"
+    },
+    {
+      "subdomain": "cenla",
+      "name": "central louisiana",
+      "url": "https://cenla.craigslist.org",
+      "section": "US",
+      "subsection": "Louisiana"
+    },
+    {
+      "subdomain": "centralmich",
+      "name": "central michigan",
+      "url": "https://centralmich.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "cnj",
+      "name": "central NJ",
+      "url": "https://cnj.craigslist.org",
+      "section": "US",
+      "subsection": "New Jersey"
+    },
+    {
+      "subdomain": "chambana",
+      "name": "champaign urbana",
+      "url": "https://chambana.craigslist.org",
+      "section": "US",
+      "subsection": "Illinois"
+    },
+    {
+      "subdomain": "chandigarh",
+      "name": "chandigarh",
+      "url": "https://chandigarh.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "India"
+    },
+    {
+      "subdomain": "charleston",
+      "name": "charleston",
+      "url": "https://charleston.craigslist.org",
+      "section": "US",
+      "subsection": "South Carolina"
+    },
+    {
+      "subdomain": "charlestonwv",
+      "name": "charleston",
+      "url": "https://charlestonwv.craigslist.org",
+      "section": "US",
+      "subsection": "West Virginia"
+    },
+    {
+      "subdomain": "charlotte",
+      "name": "charlotte",
+      "url": "https://charlotte.craigslist.org",
+      "section": "US",
+      "subsection": "North Carolina"
+    },
+    {
+      "subdomain": "charlottesville",
+      "name": "charlottesville",
+      "url": "https://charlottesville.craigslist.org",
+      "section": "US",
+      "subsection": "Virginia"
+    },
+    {
+      "subdomain": "chatham",
+      "name": "chatham-kent",
+      "url": "https://chatham.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "chattanooga",
+      "name": "chattanooga",
+      "url": "https://chattanooga.craigslist.org",
+      "section": "US",
+      "subsection": "Tennessee"
+    },
+    {
+      "subdomain": "chautauqua",
+      "name": "chautauqua",
+      "url": "https://chautauqua.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "chengdu",
+      "name": "chengdu",
+      "url": "https://chengdu.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "China"
+    },
+    {
+      "subdomain": "chennai",
+      "name": "chennai (madras)",
+      "url": "https://chennai.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "India"
+    },
+    {
+      "subdomain": "chicago",
+      "name": "chicago",
+      "url": "https://chicago.craigslist.org",
+      "section": "US",
+      "subsection": "Illinois"
+    },
+    {
+      "subdomain": "chico",
+      "name": "chico",
+      "url": "https://chico.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "chihuahua",
+      "name": "chihuahua",
+      "url": "https://chihuahua.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Mexico"
+    },
+    {
+      "subdomain": "santiago",
+      "name": "chile",
+      "url": "https://santiago.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Chile"
+    },
+    {
+      "subdomain": "chillicothe",
+      "name": "chillicothe",
+      "url": "https://chillicothe.craigslist.org",
+      "section": "US",
+      "subsection": "Ohio"
+    },
+    {
+      "subdomain": "chongqing",
+      "name": "chongqing",
+      "url": "https://chongqing.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "China"
+    },
+    {
+      "subdomain": "christchurch",
+      "name": "christchurch",
+      "url": "https://christchurch.craigslist.org",
+      "section": "Oceania",
+      "subsection": "New Zealand"
+    },
+    {
+      "subdomain": "cincinnati",
+      "name": "cincinnati",
+      "url": "https://cincinnati.craigslist.org",
+      "section": "US",
+      "subsection": "Ohio"
+    },
+    {
+      "subdomain": "juarez",
+      "name": "ciudad juarez",
+      "url": "https://juarez.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Mexico"
+    },
+    {
+      "subdomain": "clarksville",
+      "name": "clarksville",
+      "url": "https://clarksville.craigslist.org",
+      "section": "US",
+      "subsection": "Tennessee"
+    },
+    {
+      "subdomain": "cleveland",
+      "name": "cleveland",
+      "url": "https://cleveland.craigslist.org",
+      "section": "US",
+      "subsection": "Ohio"
+    },
+    {
+      "subdomain": "clovis",
+      "name": "clovis / portales",
+      "url": "https://clovis.craigslist.org",
+      "section": "US",
+      "subsection": "New Mexico"
+    },
+    {
+      "subdomain": "collegestation",
+      "name": "college station",
+      "url": "https://collegestation.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "cologne",
+      "name": "cologne",
+      "url": "https://cologne.craigslist.org",
+      "section": "Europe",
+      "subsection": "Germany"
+    },
+    {
+      "subdomain": "colombia",
+      "name": "colombia",
+      "url": "https://colombia.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Colombia"
+    },
+    {
+      "subdomain": "cosprings",
+      "name": "colorado springs",
+      "url": "https://cosprings.craigslist.org",
+      "section": "US",
+      "subsection": "Colorado"
+    },
+    {
+      "subdomain": "columbia",
+      "name": "columbia",
+      "url": "https://columbia.craigslist.org",
+      "section": "US",
+      "subsection": "South Carolina"
+    },
+    {
+      "subdomain": "columbiamo",
+      "name": "columbia / jeff city",
+      "url": "https://columbiamo.craigslist.org",
+      "section": "US",
+      "subsection": "Missouri"
+    },
+    {
+      "subdomain": "columbusga",
+      "name": "columbus",
+      "url": "https://columbusga.craigslist.org",
+      "section": "US",
+      "subsection": "Georgia"
+    },
+    {
+      "subdomain": "columbus",
+      "name": "columbus",
+      "url": "https://columbus.craigslist.org",
+      "section": "US",
+      "subsection": "Ohio"
+    },
+    {
+      "subdomain": "comoxvalley",
+      "name": "comox valley",
+      "url": "https://comoxvalley.craigslist.org",
+      "section": "Canada",
+      "subsection": "British Columbia"
+    },
+    {
+      "subdomain": "cookeville",
+      "name": "cookeville",
+      "url": "https://cookeville.craigslist.org",
+      "section": "US",
+      "subsection": "Tennessee"
+    },
+    {
+      "subdomain": "copenhagen",
+      "name": "copenhagen",
+      "url": "https://copenhagen.craigslist.org",
+      "section": "Europe",
+      "subsection": "Denmark"
+    },
+    {
+      "subdomain": "cornwall",
+      "name": "cornwall",
+      "url": "https://cornwall.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "corpuschristi",
+      "name": "corpus christi",
+      "url": "https://corpuschristi.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "corvallis",
+      "name": "corvallis/albany",
+      "url": "https://corvallis.craigslist.org",
+      "section": "US",
+      "subsection": "Oregon"
+    },
+    {
+      "subdomain": "costarica",
+      "name": "costa rica",
+      "url": "https://costarica.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Costa Rica"
+    },
+    {
+      "subdomain": "coventry",
+      "name": "coventry",
+      "url": "https://coventry.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "zagreb",
+      "name": "croatia",
+      "url": "https://zagreb.craigslist.org",
+      "section": "Europe",
+      "subsection": "Croatia"
+    },
+    {
+      "subdomain": "chambersburg",
+      "name": "cumberland valley",
+      "url": "https://chambersburg.craigslist.org",
+      "section": "US",
+      "subsection": "Pennsylvania"
+    },
+    {
+      "subdomain": "curitiba",
+      "name": "curitiba",
+      "url": "https://curitiba.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Brazil"
+    },
+    {
+      "subdomain": "dalian",
+      "name": "dalian",
+      "url": "https://dalian.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "China"
+    },
+    {
+      "subdomain": "dallas",
+      "name": "dallas / fort worth",
+      "url": "https://dallas.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "danville",
+      "name": "danville",
+      "url": "https://danville.craigslist.org",
+      "section": "US",
+      "subsection": "Virginia"
+    },
+    {
+      "subdomain": "darwin",
+      "name": "darwin",
+      "url": "https://darwin.craigslist.org",
+      "section": "Oceania",
+      "subsection": "Australia"
+    },
+    {
+      "subdomain": "davaocity",
+      "name": "davao city",
+      "url": "https://davaocity.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Philippines"
+    },
+    {
+      "subdomain": "dayton",
+      "name": "dayton / springfield",
+      "url": "https://dayton.craigslist.org",
+      "section": "US",
+      "subsection": "Ohio"
+    },
+    {
+      "subdomain": "daytona",
+      "name": "daytona beach",
+      "url": "https://daytona.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "decatur",
+      "name": "decatur",
+      "url": "https://decatur.craigslist.org",
+      "section": "US",
+      "subsection": "Illinois"
+    },
+    {
+      "subdomain": "nacogdoches",
+      "name": "deep east texas",
+      "url": "https://nacogdoches.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "delrio",
+      "name": "del rio / eagle pass",
+      "url": "https://delrio.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "delaware",
+      "name": "delaware",
+      "url": "https://delaware.craigslist.org",
+      "section": "US",
+      "subsection": "Delaware"
+    },
+    {
+      "subdomain": "delhi",
+      "name": "delhi",
+      "url": "https://delhi.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "India"
+    },
+    {
+      "subdomain": "denver",
+      "name": "denver",
+      "url": "https://denver.craigslist.org",
+      "section": "US",
+      "subsection": "Colorado"
+    },
+    {
+      "subdomain": "derby",
+      "name": "derby",
+      "url": "https://derby.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "desmoines",
+      "name": "des moines",
+      "url": "https://desmoines.craigslist.org",
+      "section": "US",
+      "subsection": "Iowa"
+    },
+    {
+      "subdomain": "detroit",
+      "name": "detroit metro",
+      "url": "https://detroit.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "devon",
+      "name": "devon & cornwall",
+      "url": "https://devon.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "santodomingo",
+      "name": "dominican republic",
+      "url": "https://santodomingo.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Dominican Republic"
+    },
+    {
+      "subdomain": "dothan",
+      "name": "dothan",
+      "url": "https://dothan.craigslist.org",
+      "section": "US",
+      "subsection": "Alabama"
+    },
+    {
+      "subdomain": "dresden",
+      "name": "dresden",
+      "url": "https://dresden.craigslist.org",
+      "section": "Europe",
+      "subsection": "Germany"
+    },
+    {
+      "subdomain": "dublin",
+      "name": "dublin",
+      "url": "https://dublin.craigslist.org",
+      "section": "Europe",
+      "subsection": "Ireland"
+    },
+    {
+      "subdomain": "dubuque",
+      "name": "dubuque",
+      "url": "https://dubuque.craigslist.org",
+      "section": "US",
+      "subsection": "Iowa"
+    },
+    {
+      "subdomain": "duluth",
+      "name": "duluth / superior",
+      "url": "https://duluth.craigslist.org",
+      "section": "US",
+      "subsection": "Minnesota"
+    },
+    {
+      "subdomain": "dundee",
+      "name": "dundee",
+      "url": "https://dundee.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "dunedin",
+      "name": "dunedin",
+      "url": "https://dunedin.craigslist.org",
+      "section": "Oceania",
+      "subsection": "New Zealand"
+    },
+    {
+      "subdomain": "durban",
+      "name": "durban",
+      "url": "https://durban.craigslist.org",
+      "section": "Africa",
+      "subsection": "South Africa"
+    },
+    {
+      "subdomain": "dusseldorf",
+      "name": "dusseldorf",
+      "url": "https://dusseldorf.craigslist.org",
+      "section": "Europe",
+      "subsection": "Germany"
+    },
+    {
+      "subdomain": "norwich",
+      "name": "east anglia",
+      "url": "https://norwich.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "eastidaho",
+      "name": "east idaho",
+      "url": "https://eastidaho.craigslist.org",
+      "section": "US",
+      "subsection": "Idaho"
+    },
+    {
+      "subdomain": "eastmids",
+      "name": "east midlands",
+      "url": "https://eastmids.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "eastoregon",
+      "name": "east oregon",
+      "url": "https://eastoregon.craigslist.org",
+      "section": "US",
+      "subsection": "Oregon"
+    },
+    {
+      "subdomain": "eastco",
+      "name": "eastern CO",
+      "url": "https://eastco.craigslist.org",
+      "section": "US",
+      "subsection": "Colorado"
+    },
+    {
+      "subdomain": "newlondon",
+      "name": "eastern CT",
+      "url": "https://newlondon.craigslist.org",
+      "section": "US",
+      "subsection": "Connecticut"
+    },
+    {
+      "subdomain": "eastky",
+      "name": "eastern kentucky",
+      "url": "https://eastky.craigslist.org",
+      "section": "US",
+      "subsection": "Kentucky"
+    },
+    {
+      "subdomain": "montana",
+      "name": "eastern montana",
+      "url": "https://montana.craigslist.org",
+      "section": "US",
+      "subsection": "Montana"
+    },
+    {
+      "subdomain": "eastnc",
+      "name": "eastern NC",
+      "url": "https://eastnc.craigslist.org",
+      "section": "US",
+      "subsection": "North Carolina"
+    },
+    {
+      "subdomain": "martinsburg",
+      "name": "eastern panhandle",
+      "url": "https://martinsburg.craigslist.org",
+      "section": "US",
+      "subsection": "West Virginia"
+    },
+    {
+      "subdomain": "easternshore",
+      "name": "eastern shore",
+      "url": "https://easternshore.craigslist.org",
+      "section": "US",
+      "subsection": "Maryland"
+    },
+    {
+      "subdomain": "eauclaire",
+      "name": "eau claire",
+      "url": "https://eauclaire.craigslist.org",
+      "section": "US",
+      "subsection": "Wisconsin"
+    },
+    {
+      "subdomain": "quito",
+      "name": "ecuador",
+      "url": "https://quito.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Ecuador"
+    },
+    {
+      "subdomain": "edinburgh",
+      "name": "edinburgh",
+      "url": "https://edinburgh.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "edmonton",
+      "name": "edmonton",
+      "url": "https://edmonton.craigslist.org",
+      "section": "Canada",
+      "subsection": "Alberta"
+    },
+    {
+      "subdomain": "cairo",
+      "name": "egypt",
+      "url": "https://cairo.craigslist.org",
+      "section": "Africa",
+      "subsection": "Egypt"
+    },
+    {
+      "subdomain": "elpaso",
+      "name": "el paso",
+      "url": "https://elpaso.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "elsalvador",
+      "name": "el salvador",
+      "url": "https://elsalvador.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "El Salvador"
+    },
+    {
+      "subdomain": "elko",
+      "name": "elko",
+      "url": "https://elko.craigslist.org",
+      "section": "US",
+      "subsection": "Nevada"
+    },
+    {
+      "subdomain": "elmira",
+      "name": "elmira-corning",
+      "url": "https://elmira.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "erie",
+      "name": "erie",
+      "url": "https://erie.craigslist.org",
+      "section": "US",
+      "subsection": "Pennsylvania"
+    },
+    {
+      "subdomain": "essen",
+      "name": "essen / ruhr",
+      "url": "https://essen.craigslist.org",
+      "section": "Europe",
+      "subsection": "Germany"
+    },
+    {
+      "subdomain": "essex",
+      "name": "essex",
+      "url": "https://essex.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "addisababa",
+      "name": "ethiopia",
+      "url": "https://addisababa.craigslist.org",
+      "section": "Africa",
+      "subsection": "Ethiopia"
+    },
+    {
+      "subdomain": "eugene",
+      "name": "eugene",
+      "url": "https://eugene.craigslist.org",
+      "section": "US",
+      "subsection": "Oregon"
+    },
+    {
+      "subdomain": "evansville",
+      "name": "evansville",
+      "url": "https://evansville.craigslist.org",
+      "section": "US",
+      "subsection": "Indiana"
+    },
+    {
+      "subdomain": "fairbanks",
+      "name": "fairbanks",
+      "url": "https://fairbanks.craigslist.org",
+      "section": "US",
+      "subsection": "Alaska"
+    },
+    {
+      "subdomain": "fargo",
+      "name": "fargo / moorhead",
+      "url": "https://fargo.craigslist.org",
+      "section": "US",
+      "subsection": "North Dakota"
+    },
+    {
+      "subdomain": "farmington",
+      "name": "farmington",
+      "url": "https://farmington.craigslist.org",
+      "section": "US",
+      "subsection": "New Mexico"
+    },
+    {
+      "subdomain": "faro",
+      "name": "faro / algarve",
+      "url": "https://faro.craigslist.org",
+      "section": "Europe",
+      "subsection": "Portugal"
+    },
+    {
+      "subdomain": "fayar",
+      "name": "fayetteville",
+      "url": "https://fayar.craigslist.org",
+      "section": "US",
+      "subsection": "Arkansas"
+    },
+    {
+      "subdomain": "fayetteville",
+      "name": "fayetteville",
+      "url": "https://fayetteville.craigslist.org",
+      "section": "US",
+      "subsection": "North Carolina"
+    },
+    {
+      "subdomain": "fingerlakes",
+      "name": "finger lakes",
+      "url": "https://fingerlakes.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "helsinki",
+      "name": "finland",
+      "url": "https://helsinki.craigslist.org",
+      "section": "Europe",
+      "subsection": "Finland"
+    },
+    {
+      "subdomain": "flagstaff",
+      "name": "flagstaff / sedona",
+      "url": "https://flagstaff.craigslist.org",
+      "section": "US",
+      "subsection": "Arizona"
+    },
+    {
+      "subdomain": "flint",
+      "name": "flint",
+      "url": "https://flint.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "florencesc",
+      "name": "florence",
+      "url": "https://florencesc.craigslist.org",
+      "section": "US",
+      "subsection": "South Carolina"
+    },
+    {
+      "subdomain": "shoals",
+      "name": "florence / muscle shoals",
+      "url": "https://shoals.craigslist.org",
+      "section": "US",
+      "subsection": "Alabama"
+    },
+    {
+      "subdomain": "florence",
+      "name": "florence / tuscany",
+      "url": "https://florence.craigslist.org",
+      "section": "Europe",
+      "subsection": "Italy"
+    },
+    {
+      "subdomain": "keys",
+      "name": "florida keys",
+      "url": "https://keys.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "fortcollins",
+      "name": "fort collins / north CO",
+      "url": "https://fortcollins.craigslist.org",
+      "section": "US",
+      "subsection": "Colorado"
+    },
+    {
+      "subdomain": "fortdodge",
+      "name": "fort dodge",
+      "url": "https://fortdodge.craigslist.org",
+      "section": "US",
+      "subsection": "Iowa"
+    },
+    {
+      "subdomain": "fortsmith",
+      "name": "fort smith",
+      "url": "https://fortsmith.craigslist.org",
+      "section": "US",
+      "subsection": "Arkansas"
+    },
+    {
+      "subdomain": "fortwayne",
+      "name": "fort wayne",
+      "url": "https://fortwayne.craigslist.org",
+      "section": "US",
+      "subsection": "Indiana"
+    },
+    {
+      "subdomain": "fortaleza",
+      "name": "fortaleza",
+      "url": "https://fortaleza.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Brazil"
+    },
+    {
+      "subdomain": "frankfurt",
+      "name": "frankfurt",
+      "url": "https://frankfurt.craigslist.org",
+      "section": "Europe",
+      "subsection": "Germany"
+    },
+    {
+      "subdomain": "abbotsford",
+      "name": "fraser valley",
+      "url": "https://abbotsford.craigslist.org",
+      "section": "Canada",
+      "subsection": "British Columbia"
+    },
+    {
+      "subdomain": "frederick",
+      "name": "frederick",
+      "url": "https://frederick.craigslist.org",
+      "section": "US",
+      "subsection": "Maryland"
+    },
+    {
+      "subdomain": "fredericksburg",
+      "name": "fredericksburg",
+      "url": "https://fredericksburg.craigslist.org",
+      "section": "US",
+      "subsection": "Virginia"
+    },
+    {
+      "subdomain": "fresno",
+      "name": "fresno / madera",
+      "url": "https://fresno.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "ftmcmurray",
+      "name": "ft mcmurray",
+      "url": "https://ftmcmurray.craigslist.org",
+      "section": "Canada",
+      "subsection": "Alberta"
+    },
+    {
+      "subdomain": "fortmyers",
+      "name": "ft myers / SW florida",
+      "url": "https://fortmyers.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "fukuoka",
+      "name": "fukuoka",
+      "url": "https://fukuoka.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Japan"
+    },
+    {
+      "subdomain": "gadsden",
+      "name": "gadsden-anniston",
+      "url": "https://gadsden.craigslist.org",
+      "section": "US",
+      "subsection": "Alabama"
+    },
+    {
+      "subdomain": "gainesville",
+      "name": "gainesville",
+      "url": "https://gainesville.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "galveston",
+      "name": "galveston",
+      "url": "https://galveston.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "geneva",
+      "name": "geneva",
+      "url": "https://geneva.craigslist.org",
+      "section": "Europe",
+      "subsection": "Switzerland"
+    },
+    {
+      "subdomain": "genoa",
+      "name": "genoa",
+      "url": "https://genoa.craigslist.org",
+      "section": "Europe",
+      "subsection": "Italy"
+    },
+    {
+      "subdomain": "accra",
+      "name": "ghana",
+      "url": "https://accra.craigslist.org",
+      "section": "Africa",
+      "subsection": "Ghana"
+    },
+    {
+      "subdomain": "glasgow",
+      "name": "glasgow",
+      "url": "https://glasgow.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "glensfalls",
+      "name": "glens falls",
+      "url": "https://glensfalls.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "goa",
+      "name": "goa",
+      "url": "https://goa.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "India"
+    },
+    {
+      "subdomain": "goldcoast",
+      "name": "gold coast",
+      "url": "https://goldcoast.craigslist.org",
+      "section": "Oceania",
+      "subsection": "Australia"
+    },
+    {
+      "subdomain": "goldcountry",
+      "name": "gold country",
+      "url": "https://goldcountry.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "granada",
+      "name": "granada",
+      "url": "https://granada.craigslist.org",
+      "section": "Europe",
+      "subsection": "Spain"
+    },
+    {
+      "subdomain": "grandforks",
+      "name": "grand forks",
+      "url": "https://grandforks.craigslist.org",
+      "section": "US",
+      "subsection": "North Dakota"
+    },
+    {
+      "subdomain": "grandisland",
+      "name": "grand island",
+      "url": "https://grandisland.craigslist.org",
+      "section": "US",
+      "subsection": "Nebraska"
+    },
+    {
+      "subdomain": "grandrapids",
+      "name": "grand rapids",
+      "url": "https://grandrapids.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "greatfalls",
+      "name": "great falls",
+      "url": "https://greatfalls.craigslist.org",
+      "section": "US",
+      "subsection": "Montana"
+    },
+    {
+      "subdomain": "athens",
+      "name": "greece",
+      "url": "https://athens.craigslist.org",
+      "section": "Europe",
+      "subsection": "Greece"
+    },
+    {
+      "subdomain": "greenbay",
+      "name": "green bay",
+      "url": "https://greenbay.craigslist.org",
+      "section": "US",
+      "subsection": "Wisconsin"
+    },
+    {
+      "subdomain": "greensboro",
+      "name": "greensboro",
+      "url": "https://greensboro.craigslist.org",
+      "section": "US",
+      "subsection": "North Carolina"
+    },
+    {
+      "subdomain": "greenville",
+      "name": "greenville / upstate",
+      "url": "https://greenville.craigslist.org",
+      "section": "US",
+      "subsection": "South Carolina"
+    },
+    {
+      "subdomain": "grenoble",
+      "name": "grenoble",
+      "url": "https://grenoble.craigslist.org",
+      "section": "Europe",
+      "subsection": "France"
+    },
+    {
+      "subdomain": "guadalajara",
+      "name": "guadalajara",
+      "url": "https://guadalajara.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Mexico"
+    },
+    {
+      "subdomain": "micronesia",
+      "name": "guam-micronesia",
+      "url": "https://micronesia.craigslist.org",
+      "section": "US",
+      "subsection": "Territories"
+    },
+    {
+      "subdomain": "guanajuato",
+      "name": "guanajuato",
+      "url": "https://guanajuato.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Mexico"
+    },
+    {
+      "subdomain": "guangzhou",
+      "name": "guangzhou",
+      "url": "https://guangzhou.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "China"
+    },
+    {
+      "subdomain": "guatemala",
+      "name": "guatemala",
+      "url": "https://guatemala.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Guatemala"
+    },
+    {
+      "subdomain": "guelph",
+      "name": "guelph",
+      "url": "https://guelph.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "gulfport",
+      "name": "gulfport / biloxi",
+      "url": "https://gulfport.craigslist.org",
+      "section": "US",
+      "subsection": "Mississippi"
+    },
+    {
+      "subdomain": "haifa",
+      "name": "haifa",
+      "url": "https://haifa.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Israel and Palestine"
+    },
+    {
+      "subdomain": "halifax",
+      "name": "halifax",
+      "url": "https://halifax.craigslist.org",
+      "section": "Canada",
+      "subsection": "Nova Scotia"
+    },
+    {
+      "subdomain": "hamburg",
+      "name": "hamburg",
+      "url": "https://hamburg.craigslist.org",
+      "section": "Europe",
+      "subsection": "Germany"
+    },
+    {
+      "subdomain": "hamilton",
+      "name": "hamilton-burlington",
+      "url": "https://hamilton.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "hampshire",
+      "name": "hampshire",
+      "url": "https://hampshire.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "norfolk",
+      "name": "hampton roads",
+      "url": "https://norfolk.craigslist.org",
+      "section": "US",
+      "subsection": "Virginia"
+    },
+    {
+      "subdomain": "hanford",
+      "name": "hanford-corcoran",
+      "url": "https://hanford.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "hangzhou",
+      "name": "hangzhou",
+      "url": "https://hangzhou.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "China"
+    },
+    {
+      "subdomain": "hannover",
+      "name": "hannover",
+      "url": "https://hannover.craigslist.org",
+      "section": "Europe",
+      "subsection": "Germany"
+    },
+    {
+      "subdomain": "harrisburg",
+      "name": "harrisburg",
+      "url": "https://harrisburg.craigslist.org",
+      "section": "US",
+      "subsection": "Pennsylvania"
+    },
+    {
+      "subdomain": "harrisonburg",
+      "name": "harrisonburg",
+      "url": "https://harrisonburg.craigslist.org",
+      "section": "US",
+      "subsection": "Virginia"
+    },
+    {
+      "subdomain": "hartford",
+      "name": "hartford",
+      "url": "https://hartford.craigslist.org",
+      "section": "US",
+      "subsection": "Connecticut"
+    },
+    {
+      "subdomain": "hattiesburg",
+      "name": "hattiesburg",
+      "url": "https://hattiesburg.craigslist.org",
+      "section": "US",
+      "subsection": "Mississippi"
+    },
+    {
+      "subdomain": "honolulu",
+      "name": "hawaii",
+      "url": "https://honolulu.craigslist.org",
+      "section": "US",
+      "subsection": "Hawaii"
+    },
+    {
+      "subdomain": "cfl",
+      "name": "heartland florida",
+      "url": "https://cfl.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "heidelberg",
+      "name": "heidelberg",
+      "url": "https://heidelberg.craigslist.org",
+      "section": "Europe",
+      "subsection": "Germany"
+    },
+    {
+      "subdomain": "helena",
+      "name": "helena",
+      "url": "https://helena.craigslist.org",
+      "section": "US",
+      "subsection": "Montana"
+    },
+    {
+      "subdomain": "hermosillo",
+      "name": "hermosillo",
+      "url": "https://hermosillo.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Mexico"
+    },
+    {
+      "subdomain": "hickory",
+      "name": "hickory / lenoir",
+      "url": "https://hickory.craigslist.org",
+      "section": "US",
+      "subsection": "North Carolina"
+    },
+    {
+      "subdomain": "rockies",
+      "name": "high rockies",
+      "url": "https://rockies.craigslist.org",
+      "section": "US",
+      "subsection": "Colorado"
+    },
+    {
+      "subdomain": "hiltonhead",
+      "name": "hilton head",
+      "url": "https://hiltonhead.craigslist.org",
+      "section": "US",
+      "subsection": "South Carolina"
+    },
+    {
+      "subdomain": "hiroshima",
+      "name": "hiroshima",
+      "url": "https://hiroshima.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Japan"
+    },
+    {
+      "subdomain": "holland",
+      "name": "holland",
+      "url": "https://holland.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "hongkong",
+      "name": "hong kong",
+      "url": "https://hongkong.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Hong Kong"
+    },
+    {
+      "subdomain": "houma",
+      "name": "houma",
+      "url": "https://houma.craigslist.org",
+      "section": "US",
+      "subsection": "Louisiana"
+    },
+    {
+      "subdomain": "houston",
+      "name": "houston",
+      "url": "https://houston.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "hudsonvalley",
+      "name": "hudson valley",
+      "url": "https://hudsonvalley.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "humboldt",
+      "name": "humboldt county",
+      "url": "https://humboldt.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "huntington",
+      "name": "huntington-ashland",
+      "url": "https://huntington.craigslist.org",
+      "section": "US",
+      "subsection": "West Virginia"
+    },
+    {
+      "subdomain": "huntsville",
+      "name": "huntsville / decatur",
+      "url": "https://huntsville.craigslist.org",
+      "section": "US",
+      "subsection": "Alabama"
+    },
+    {
+      "subdomain": "hyderabad",
+      "name": "hyderabad",
+      "url": "https://hyderabad.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "India"
+    },
+    {
+      "subdomain": "iloilo",
+      "name": "iloilo",
+      "url": "https://iloilo.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Philippines"
+    },
+    {
+      "subdomain": "imperial",
+      "name": "imperial county",
+      "url": "https://imperial.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "indianapolis",
+      "name": "indianapolis",
+      "url": "https://indianapolis.craigslist.org",
+      "section": "US",
+      "subsection": "Indiana"
+    },
+    {
+      "subdomain": "jakarta",
+      "name": "indonesia",
+      "url": "https://jakarta.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Indonesia"
+    },
+    {
+      "subdomain": "indore",
+      "name": "indore",
+      "url": "https://indore.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "India"
+    },
+    {
+      "subdomain": "inlandempire",
+      "name": "inland empire",
+      "url": "https://inlandempire.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "iowacity",
+      "name": "iowa city",
+      "url": "https://iowacity.craigslist.org",
+      "section": "US",
+      "subsection": "Iowa"
+    },
+    {
+      "subdomain": "tehran",
+      "name": "iran",
+      "url": "https://tehran.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Iran"
+    },
+    {
+      "subdomain": "baghdad",
+      "name": "iraq",
+      "url": "https://baghdad.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Iraq"
+    },
+    {
+      "subdomain": "ithaca",
+      "name": "ithaca",
+      "url": "https://ithaca.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "jxn",
+      "name": "jackson",
+      "url": "https://jxn.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "jackson",
+      "name": "jackson",
+      "url": "https://jackson.craigslist.org",
+      "section": "US",
+      "subsection": "Mississippi"
+    },
+    {
+      "subdomain": "jacksontn",
+      "name": "jackson",
+      "url": "https://jacksontn.craigslist.org",
+      "section": "US",
+      "subsection": "Tennessee"
+    },
+    {
+      "subdomain": "jacksonville",
+      "name": "jacksonville",
+      "url": "https://jacksonville.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "onslow",
+      "name": "jacksonville",
+      "url": "https://onslow.craigslist.org",
+      "section": "US",
+      "subsection": "North Carolina"
+    },
+    {
+      "subdomain": "jaipur",
+      "name": "jaipur",
+      "url": "https://jaipur.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "India"
+    },
+    {
+      "subdomain": "janesville",
+      "name": "janesville",
+      "url": "https://janesville.craigslist.org",
+      "section": "US",
+      "subsection": "Wisconsin"
+    },
+    {
+      "subdomain": "jerseyshore",
+      "name": "jersey shore",
+      "url": "https://jerseyshore.craigslist.org",
+      "section": "US",
+      "subsection": "New Jersey"
+    },
+    {
+      "subdomain": "jerusalem",
+      "name": "jerusalem",
+      "url": "https://jerusalem.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Israel and Palestine"
+    },
+    {
+      "subdomain": "johannesburg",
+      "name": "johannesburg",
+      "url": "https://johannesburg.craigslist.org",
+      "section": "Africa",
+      "subsection": "South Africa"
+    },
+    {
+      "subdomain": "jonesboro",
+      "name": "jonesboro",
+      "url": "https://jonesboro.craigslist.org",
+      "section": "US",
+      "subsection": "Arkansas"
+    },
+    {
+      "subdomain": "joplin",
+      "name": "joplin",
+      "url": "https://joplin.craigslist.org",
+      "section": "US",
+      "subsection": "Missouri"
+    },
+    {
+      "subdomain": "kaiserslautern",
+      "name": "kaiserslautern",
+      "url": "https://kaiserslautern.craigslist.org",
+      "section": "Europe",
+      "subsection": "Germany"
+    },
+    {
+      "subdomain": "kalamazoo",
+      "name": "kalamazoo",
+      "url": "https://kalamazoo.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "kalispell",
+      "name": "kalispell",
+      "url": "https://kalispell.craigslist.org",
+      "section": "US",
+      "subsection": "Montana"
+    },
+    {
+      "subdomain": "kamloops",
+      "name": "kamloops",
+      "url": "https://kamloops.craigslist.org",
+      "section": "Canada",
+      "subsection": "British Columbia"
+    },
+    {
+      "subdomain": "kansascity",
+      "name": "kansas city",
+      "url": "https://kansascity.craigslist.org",
+      "section": "US",
+      "subsection": "Missouri"
+    },
+    {
+      "subdomain": "kelowna",
+      "name": "kelowna / okanagan",
+      "url": "https://kelowna.craigslist.org",
+      "section": "Canada",
+      "subsection": "British Columbia"
+    },
+    {
+      "subdomain": "kenai",
+      "name": "kenai peninsula",
+      "url": "https://kenai.craigslist.org",
+      "section": "US",
+      "subsection": "Alaska"
+    },
+    {
+      "subdomain": "kpr",
+      "name": "kennewick-pasco-richland",
+      "url": "https://kpr.craigslist.org",
+      "section": "US",
+      "subsection": "Washington"
+    },
+    {
+      "subdomain": "racine",
+      "name": "kenosha-racine",
+      "url": "https://racine.craigslist.org",
+      "section": "US",
+      "subsection": "Wisconsin"
+    },
+    {
+      "subdomain": "kent",
+      "name": "kent",
+      "url": "https://kent.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "kenya",
+      "name": "kenya",
+      "url": "https://kenya.craigslist.org",
+      "section": "Africa",
+      "subsection": "Kenya"
+    },
+    {
+      "subdomain": "kerala",
+      "name": "kerala",
+      "url": "https://kerala.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "India"
+    },
+    {
+      "subdomain": "killeen",
+      "name": "killeen / temple / ft hood",
+      "url": "https://killeen.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "kingston",
+      "name": "kingston",
+      "url": "https://kingston.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "kirksville",
+      "name": "kirksville",
+      "url": "https://kirksville.craigslist.org",
+      "section": "US",
+      "subsection": "Missouri"
+    },
+    {
+      "subdomain": "kitchener",
+      "name": "kitchener-waterloo-cambridge",
+      "url": "https://kitchener.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "klamath",
+      "name": "klamath falls",
+      "url": "https://klamath.craigslist.org",
+      "section": "US",
+      "subsection": "Oregon"
+    },
+    {
+      "subdomain": "knoxville",
+      "name": "knoxville",
+      "url": "https://knoxville.craigslist.org",
+      "section": "US",
+      "subsection": "Tennessee"
+    },
+    {
+      "subdomain": "kokomo",
+      "name": "kokomo",
+      "url": "https://kokomo.craigslist.org",
+      "section": "US",
+      "subsection": "Indiana"
+    },
+    {
+      "subdomain": "kolkata",
+      "name": "kolkata (calcutta)",
+      "url": "https://kolkata.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "India"
+    },
+    {
+      "subdomain": "kootenays",
+      "name": "kootenays",
+      "url": "https://kootenays.craigslist.org",
+      "section": "Canada",
+      "subsection": "British Columbia"
+    },
+    {
+      "subdomain": "kuwait",
+      "name": "kuwait",
+      "url": "https://kuwait.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Kuwait"
+    },
+    {
+      "subdomain": "lacrosse",
+      "name": "la crosse",
+      "url": "https://lacrosse.craigslist.org",
+      "section": "US",
+      "subsection": "Wisconsin"
+    },
+    {
+      "subdomain": "lasalle",
+      "name": "la salle co",
+      "url": "https://lasalle.craigslist.org",
+      "section": "US",
+      "subsection": "Illinois"
+    },
+    {
+      "subdomain": "lafayette",
+      "name": "lafayette",
+      "url": "https://lafayette.craigslist.org",
+      "section": "US",
+      "subsection": "Louisiana"
+    },
+    {
+      "subdomain": "tippecanoe",
+      "name": "lafayette / west lafayette",
+      "url": "https://tippecanoe.craigslist.org",
+      "section": "US",
+      "subsection": "Indiana"
+    },
+    {
+      "subdomain": "lakecharles",
+      "name": "lake charles",
+      "url": "https://lakecharles.craigslist.org",
+      "section": "US",
+      "subsection": "Louisiana"
+    },
+    {
+      "subdomain": "loz",
+      "name": "lake of the ozarks",
+      "url": "https://loz.craigslist.org",
+      "section": "US",
+      "subsection": "Missouri"
+    },
+    {
+      "subdomain": "lakeland",
+      "name": "lakeland",
+      "url": "https://lakeland.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "lancaster",
+      "name": "lancaster",
+      "url": "https://lancaster.craigslist.org",
+      "section": "US",
+      "subsection": "Pennsylvania"
+    },
+    {
+      "subdomain": "lansing",
+      "name": "lansing",
+      "url": "https://lansing.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "laredo",
+      "name": "laredo",
+      "url": "https://laredo.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "lascruces",
+      "name": "las cruces",
+      "url": "https://lascruces.craigslist.org",
+      "section": "US",
+      "subsection": "New Mexico"
+    },
+    {
+      "subdomain": "lasvegas",
+      "name": "las vegas",
+      "url": "https://lasvegas.craigslist.org",
+      "section": "US",
+      "subsection": "Nevada"
+    },
+    {
+      "subdomain": "lausanne",
+      "name": "lausanne",
+      "url": "https://lausanne.craigslist.org",
+      "section": "Europe",
+      "subsection": "Switzerland"
+    },
+    {
+      "subdomain": "lawrence",
+      "name": "lawrence",
+      "url": "https://lawrence.craigslist.org",
+      "section": "US",
+      "subsection": "Kansas"
+    },
+    {
+      "subdomain": "lawton",
+      "name": "lawton",
+      "url": "https://lawton.craigslist.org",
+      "section": "US",
+      "subsection": "Oklahoma"
+    },
+    {
+      "subdomain": "leeds",
+      "name": "leeds",
+      "url": "https://leeds.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "allentown",
+      "name": "lehigh valley",
+      "url": "https://allentown.craigslist.org",
+      "section": "US",
+      "subsection": "Pennsylvania"
+    },
+    {
+      "subdomain": "leipzig",
+      "name": "leipzig",
+      "url": "https://leipzig.craigslist.org",
+      "section": "Europe",
+      "subsection": "Germany"
+    },
+    {
+      "subdomain": "lethbridge",
+      "name": "lethbridge",
+      "url": "https://lethbridge.craigslist.org",
+      "section": "Canada",
+      "subsection": "Alberta"
+    },
+    {
+      "subdomain": "lewiston",
+      "name": "lewiston / clarkston",
+      "url": "https://lewiston.craigslist.org",
+      "section": "US",
+      "subsection": "Idaho"
+    },
+    {
+      "subdomain": "lexington",
+      "name": "lexington",
+      "url": "https://lexington.craigslist.org",
+      "section": "US",
+      "subsection": "Kentucky"
+    },
+    {
+      "subdomain": "lille",
+      "name": "lille",
+      "url": "https://lille.craigslist.org",
+      "section": "Europe",
+      "subsection": "France"
+    },
+    {
+      "subdomain": "limaohio",
+      "name": "lima / findlay",
+      "url": "https://limaohio.craigslist.org",
+      "section": "US",
+      "subsection": "Ohio"
+    },
+    {
+      "subdomain": "lincoln",
+      "name": "lincoln",
+      "url": "https://lincoln.craigslist.org",
+      "section": "US",
+      "subsection": "Nebraska"
+    },
+    {
+      "subdomain": "lisbon",
+      "name": "lisbon",
+      "url": "https://lisbon.craigslist.org",
+      "section": "Europe",
+      "subsection": "Portugal"
+    },
+    {
+      "subdomain": "littlerock",
+      "name": "little rock",
+      "url": "https://littlerock.craigslist.org",
+      "section": "US",
+      "subsection": "Arkansas"
+    },
+    {
+      "subdomain": "liverpool",
+      "name": "liverpool",
+      "url": "https://liverpool.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "logan",
+      "name": "logan",
+      "url": "https://logan.craigslist.org",
+      "section": "US",
+      "subsection": "Utah"
+    },
+    {
+      "subdomain": "loire",
+      "name": "loire valley",
+      "url": "https://loire.craigslist.org",
+      "section": "Europe",
+      "subsection": "France"
+    },
+    {
+      "subdomain": "londonon",
+      "name": "london",
+      "url": "https://londonon.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "london",
+      "name": "london",
+      "url": "https://london.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "longisland",
+      "name": "long island",
+      "url": "https://longisland.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "losangeles",
+      "name": "los angeles",
+      "url": "https://losangeles.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "louisville",
+      "name": "louisville",
+      "url": "https://louisville.craigslist.org",
+      "section": "US",
+      "subsection": "Kentucky"
+    },
+    {
+      "subdomain": "lubbock",
+      "name": "lubbock",
+      "url": "https://lubbock.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "lucknow",
+      "name": "lucknow",
+      "url": "https://lucknow.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "India"
+    },
+    {
+      "subdomain": "luxembourg",
+      "name": "luxembourg",
+      "url": "https://luxembourg.craigslist.org",
+      "section": "Europe",
+      "subsection": "Luxembourg"
+    },
+    {
+      "subdomain": "lynchburg",
+      "name": "lynchburg",
+      "url": "https://lynchburg.craigslist.org",
+      "section": "US",
+      "subsection": "Virginia"
+    },
+    {
+      "subdomain": "lyon",
+      "name": "lyon",
+      "url": "https://lyon.craigslist.org",
+      "section": "Europe",
+      "subsection": "France"
+    },
+    {
+      "subdomain": "macon",
+      "name": "macon / warner robins",
+      "url": "https://macon.craigslist.org",
+      "section": "US",
+      "subsection": "Georgia"
+    },
+    {
+      "subdomain": "madison",
+      "name": "madison",
+      "url": "https://madison.craigslist.org",
+      "section": "US",
+      "subsection": "Wisconsin"
+    },
+    {
+      "subdomain": "madrid",
+      "name": "madrid",
+      "url": "https://madrid.craigslist.org",
+      "section": "Europe",
+      "subsection": "Spain"
+    },
+    {
+      "subdomain": "maine",
+      "name": "maine",
+      "url": "https://maine.craigslist.org",
+      "section": "US",
+      "subsection": "Maine"
+    },
+    {
+      "subdomain": "malaga",
+      "name": "malaga",
+      "url": "https://malaga.craigslist.org",
+      "section": "Europe",
+      "subsection": "Spain"
+    },
+    {
+      "subdomain": "malaysia",
+      "name": "malaysia",
+      "url": "https://malaysia.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Malaysia"
+    },
+    {
+      "subdomain": "manchester",
+      "name": "manchester",
+      "url": "https://manchester.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "ksu",
+      "name": "manhattan",
+      "url": "https://ksu.craigslist.org",
+      "section": "US",
+      "subsection": "Kansas"
+    },
+    {
+      "subdomain": "manila",
+      "name": "manila",
+      "url": "https://manila.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Philippines"
+    },
+    {
+      "subdomain": "mankato",
+      "name": "mankato",
+      "url": "https://mankato.craigslist.org",
+      "section": "US",
+      "subsection": "Minnesota"
+    },
+    {
+      "subdomain": "mansfield",
+      "name": "mansfield",
+      "url": "https://mansfield.craigslist.org",
+      "section": "US",
+      "subsection": "Ohio"
+    },
+    {
+      "subdomain": "marseilles",
+      "name": "marseille",
+      "url": "https://marseilles.craigslist.org",
+      "section": "Europe",
+      "subsection": "France"
+    },
+    {
+      "subdomain": "masoncity",
+      "name": "mason city",
+      "url": "https://masoncity.craigslist.org",
+      "section": "US",
+      "subsection": "Iowa"
+    },
+    {
+      "subdomain": "mattoon",
+      "name": "mattoon-charleston",
+      "url": "https://mattoon.craigslist.org",
+      "section": "US",
+      "subsection": "Illinois"
+    },
+    {
+      "subdomain": "mazatlan",
+      "name": "mazatlan",
+      "url": "https://mazatlan.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Mexico"
+    },
+    {
+      "subdomain": "mcallen",
+      "name": "mcallen / edinburg",
+      "url": "https://mcallen.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "meadville",
+      "name": "meadville",
+      "url": "https://meadville.craigslist.org",
+      "section": "US",
+      "subsection": "Pennsylvania"
+    },
+    {
+      "subdomain": "medford",
+      "name": "medford-ashland",
+      "url": "https://medford.craigslist.org",
+      "section": "US",
+      "subsection": "Oregon"
+    },
+    {
+      "subdomain": "hat",
+      "name": "medicine hat",
+      "url": "https://hat.craigslist.org",
+      "section": "Canada",
+      "subsection": "Alberta"
+    },
+    {
+      "subdomain": "melbourne",
+      "name": "melbourne",
+      "url": "https://melbourne.craigslist.org",
+      "section": "Oceania",
+      "subsection": "Australia"
+    },
+    {
+      "subdomain": "memphis",
+      "name": "memphis",
+      "url": "https://memphis.craigslist.org",
+      "section": "US",
+      "subsection": "Tennessee"
+    },
+    {
+      "subdomain": "mendocino",
+      "name": "mendocino county",
+      "url": "https://mendocino.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "merced",
+      "name": "merced",
+      "url": "https://merced.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "meridian",
+      "name": "meridian",
+      "url": "https://meridian.craigslist.org",
+      "section": "US",
+      "subsection": "Mississippi"
+    },
+    {
+      "subdomain": "mexicocity",
+      "name": "mexico city",
+      "url": "https://mexicocity.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Mexico"
+    },
+    {
+      "subdomain": "milan",
+      "name": "milan",
+      "url": "https://milan.craigslist.org",
+      "section": "Europe",
+      "subsection": "Italy"
+    },
+    {
+      "subdomain": "milwaukee",
+      "name": "milwaukee",
+      "url": "https://milwaukee.craigslist.org",
+      "section": "US",
+      "subsection": "Wisconsin"
+    },
+    {
+      "subdomain": "minneapolis",
+      "name": "minneapolis / st paul",
+      "url": "https://minneapolis.craigslist.org",
+      "section": "US",
+      "subsection": "Minnesota"
+    },
+    {
+      "subdomain": "missoula",
+      "name": "missoula",
+      "url": "https://missoula.craigslist.org",
+      "section": "US",
+      "subsection": "Montana"
+    },
+    {
+      "subdomain": "mobile",
+      "name": "mobile",
+      "url": "https://mobile.craigslist.org",
+      "section": "US",
+      "subsection": "Alabama"
+    },
+    {
+      "subdomain": "modesto",
+      "name": "modesto",
+      "url": "https://modesto.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "mohave",
+      "name": "mohave county",
+      "url": "https://mohave.craigslist.org",
+      "section": "US",
+      "subsection": "Arizona"
+    },
+    {
+      "subdomain": "monroe",
+      "name": "monroe",
+      "url": "https://monroe.craigslist.org",
+      "section": "US",
+      "subsection": "Louisiana"
+    },
+    {
+      "subdomain": "monroemi",
+      "name": "monroe",
+      "url": "https://monroemi.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "monterey",
+      "name": "monterey bay",
+      "url": "https://monterey.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "monterrey",
+      "name": "monterrey",
+      "url": "https://monterrey.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Mexico"
+    },
+    {
+      "subdomain": "montevideo",
+      "name": "montevideo",
+      "url": "https://montevideo.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Uruguay"
+    },
+    {
+      "subdomain": "montgomery",
+      "name": "montgomery",
+      "url": "https://montgomery.craigslist.org",
+      "section": "US",
+      "subsection": "Alabama"
+    },
+    {
+      "subdomain": "montpellier",
+      "name": "montpellier",
+      "url": "https://montpellier.craigslist.org",
+      "section": "Europe",
+      "subsection": "France"
+    },
+    {
+      "subdomain": "montreal",
+      "name": "montreal",
+      "url": "https://montreal.craigslist.org",
+      "section": "Canada",
+      "subsection": "Quebec"
+    },
+    {
+      "subdomain": "morgantown",
+      "name": "morgantown",
+      "url": "https://morgantown.craigslist.org",
+      "section": "US",
+      "subsection": "West Virginia"
+    },
+    {
+      "subdomain": "casablanca",
+      "name": "morocco",
+      "url": "https://casablanca.craigslist.org",
+      "section": "Africa",
+      "subsection": "Morocco"
+    },
+    {
+      "subdomain": "moscow",
+      "name": "moscow",
+      "url": "https://moscow.craigslist.org",
+      "section": "Europe",
+      "subsection": "Russian Federation"
+    },
+    {
+      "subdomain": "moseslake",
+      "name": "moses lake",
+      "url": "https://moseslake.craigslist.org",
+      "section": "US",
+      "subsection": "Washington"
+    },
+    {
+      "subdomain": "mumbai",
+      "name": "mumbai",
+      "url": "https://mumbai.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "India"
+    },
+    {
+      "subdomain": "muncie",
+      "name": "muncie / anderson",
+      "url": "https://muncie.craigslist.org",
+      "section": "US",
+      "subsection": "Indiana"
+    },
+    {
+      "subdomain": "munich",
+      "name": "munich",
+      "url": "https://munich.craigslist.org",
+      "section": "Europe",
+      "subsection": "Germany"
+    },
+    {
+      "subdomain": "muskegon",
+      "name": "muskegon",
+      "url": "https://muskegon.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "myrtlebeach",
+      "name": "myrtle beach",
+      "url": "https://myrtlebeach.craigslist.org",
+      "section": "US",
+      "subsection": "South Carolina"
+    },
+    {
+      "subdomain": "nagoya",
+      "name": "nagoya",
+      "url": "https://nagoya.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Japan"
+    },
+    {
+      "subdomain": "nanaimo",
+      "name": "nanaimo",
+      "url": "https://nanaimo.craigslist.org",
+      "section": "Canada",
+      "subsection": "British Columbia"
+    },
+    {
+      "subdomain": "nanjing",
+      "name": "nanjing",
+      "url": "https://nanjing.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "China"
+    },
+    {
+      "subdomain": "naples",
+      "name": "napoli / campania",
+      "url": "https://naples.craigslist.org",
+      "section": "Europe",
+      "subsection": "Italy"
+    },
+    {
+      "subdomain": "nashville",
+      "name": "nashville",
+      "url": "https://nashville.craigslist.org",
+      "section": "US",
+      "subsection": "Tennessee"
+    },
+    {
+      "subdomain": "newbrunswick",
+      "name": "new brunswick",
+      "url": "https://newbrunswick.craigslist.org",
+      "section": "Canada",
+      "subsection": "New Brunswick"
+    },
+    {
+      "subdomain": "nh",
+      "name": "new hampshire",
+      "url": "https://nh.craigslist.org",
+      "section": "US",
+      "subsection": "New Hampshire"
+    },
+    {
+      "subdomain": "newhaven",
+      "name": "new haven",
+      "url": "https://newhaven.craigslist.org",
+      "section": "US",
+      "subsection": "Connecticut"
+    },
+    {
+      "subdomain": "neworleans",
+      "name": "new orleans",
+      "url": "https://neworleans.craigslist.org",
+      "section": "US",
+      "subsection": "Louisiana"
+    },
+    {
+      "subdomain": "blacksburg",
+      "name": "new river valley",
+      "url": "https://blacksburg.craigslist.org",
+      "section": "US",
+      "subsection": "Virginia"
+    },
+    {
+      "subdomain": "newyork",
+      "name": "new york city",
+      "url": "https://newyork.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "newcastle",
+      "name": "newcastle / NE england",
+      "url": "https://newcastle.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "ntl",
+      "name": "newcastle, NSW",
+      "url": "https://ntl.craigslist.org",
+      "section": "Oceania",
+      "subsection": "Australia"
+    },
+    {
+      "subdomain": "niagara",
+      "name": "niagara region",
+      "url": "https://niagara.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "managua",
+      "name": "nicaragua",
+      "url": "https://managua.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Nicaragua"
+    },
+    {
+      "subdomain": "cotedazur",
+      "name": "nice / cote d'azur",
+      "url": "https://cotedazur.craigslist.org",
+      "section": "Europe",
+      "subsection": "France"
+    },
+    {
+      "subdomain": "rouen",
+      "name": "normandy",
+      "url": "https://rouen.craigslist.org",
+      "section": "Europe",
+      "subsection": "France"
+    },
+    {
+      "subdomain": "lakecity",
+      "name": "north central FL",
+      "url": "https://lakecity.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "nd",
+      "name": "north dakota",
+      "url": "https://nd.craigslist.org",
+      "section": "US",
+      "subsection": "North Dakota"
+    },
+    {
+      "subdomain": "newjersey",
+      "name": "north jersey",
+      "url": "https://newjersey.craigslist.org",
+      "section": "US",
+      "subsection": "New Jersey"
+    },
+    {
+      "subdomain": "northmiss",
+      "name": "north mississippi",
+      "url": "https://northmiss.craigslist.org",
+      "section": "US",
+      "subsection": "Mississippi"
+    },
+    {
+      "subdomain": "northplatte",
+      "name": "north platte",
+      "url": "https://northplatte.craigslist.org",
+      "section": "US",
+      "subsection": "Nebraska"
+    },
+    {
+      "subdomain": "nesd",
+      "name": "northeast SD",
+      "url": "https://nesd.craigslist.org",
+      "section": "US",
+      "subsection": "South Dakota"
+    },
+    {
+      "subdomain": "nmi",
+      "name": "northern michigan",
+      "url": "https://nmi.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "wheeling",
+      "name": "northern panhandle",
+      "url": "https://wheeling.craigslist.org",
+      "section": "US",
+      "subsection": "West Virginia"
+    },
+    {
+      "subdomain": "northernwi",
+      "name": "northern WI",
+      "url": "https://northernwi.craigslist.org",
+      "section": "US",
+      "subsection": "Wisconsin"
+    },
+    {
+      "subdomain": "nwct",
+      "name": "northwest CT",
+      "url": "https://nwct.craigslist.org",
+      "section": "US",
+      "subsection": "Connecticut"
+    },
+    {
+      "subdomain": "nwga",
+      "name": "northwest GA",
+      "url": "https://nwga.craigslist.org",
+      "section": "US",
+      "subsection": "Georgia"
+    },
+    {
+      "subdomain": "nwks",
+      "name": "northwest KS",
+      "url": "https://nwks.craigslist.org",
+      "section": "US",
+      "subsection": "Kansas"
+    },
+    {
+      "subdomain": "enid",
+      "name": "northwest OK",
+      "url": "https://enid.craigslist.org",
+      "section": "US",
+      "subsection": "Oklahoma"
+    },
+    {
+      "subdomain": "oslo",
+      "name": "norway",
+      "url": "https://oslo.craigslist.org",
+      "section": "Europe",
+      "subsection": "Norway"
+    },
+    {
+      "subdomain": "nottingham",
+      "name": "nottingham",
+      "url": "https://nottingham.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "nuremberg",
+      "name": "nuremberg",
+      "url": "https://nuremberg.craigslist.org",
+      "section": "Europe",
+      "subsection": "Germany"
+    },
+    {
+      "subdomain": "oaxaca",
+      "name": "oaxaca",
+      "url": "https://oaxaca.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Mexico"
+    },
+    {
+      "subdomain": "ocala",
+      "name": "ocala",
+      "url": "https://ocala.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "odessa",
+      "name": "odessa / midland",
+      "url": "https://odessa.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "ogden",
+      "name": "ogden-clearfield",
+      "url": "https://ogden.craigslist.org",
+      "section": "US",
+      "subsection": "Utah"
+    },
+    {
+      "subdomain": "okaloosa",
+      "name": "okaloosa / walton",
+      "url": "https://okaloosa.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "okinawa",
+      "name": "okinawa",
+      "url": "https://okinawa.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Japan"
+    },
+    {
+      "subdomain": "oklahomacity",
+      "name": "oklahoma city",
+      "url": "https://oklahomacity.craigslist.org",
+      "section": "US",
+      "subsection": "Oklahoma"
+    },
+    {
+      "subdomain": "olympic",
+      "name": "olympic peninsula",
+      "url": "https://olympic.craigslist.org",
+      "section": "US",
+      "subsection": "Washington"
+    },
+    {
+      "subdomain": "omaha",
+      "name": "omaha / council bluffs",
+      "url": "https://omaha.craigslist.org",
+      "section": "US",
+      "subsection": "Nebraska"
+    },
+    {
+      "subdomain": "oneonta",
+      "name": "oneonta",
+      "url": "https://oneonta.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "orangecounty",
+      "name": "orange county",
+      "url": "https://orangecounty.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "oregoncoast",
+      "name": "oregon coast",
+      "url": "https://oregoncoast.craigslist.org",
+      "section": "US",
+      "subsection": "Oregon"
+    },
+    {
+      "subdomain": "orlando",
+      "name": "orlando",
+      "url": "https://orlando.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "osaka",
+      "name": "osaka-kobe-kyoto",
+      "url": "https://osaka.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Japan"
+    },
+    {
+      "subdomain": "ottawa",
+      "name": "ottawa-hull-gatineau",
+      "url": "https://ottawa.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "outerbanks",
+      "name": "outer banks",
+      "url": "https://outerbanks.craigslist.org",
+      "section": "US",
+      "subsection": "North Carolina"
+    },
+    {
+      "subdomain": "owensound",
+      "name": "owen sound",
+      "url": "https://owensound.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "owensboro",
+      "name": "owensboro",
+      "url": "https://owensboro.craigslist.org",
+      "section": "US",
+      "subsection": "Kentucky"
+    },
+    {
+      "subdomain": "oxford",
+      "name": "oxford",
+      "url": "https://oxford.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "pakistan",
+      "name": "pakistan",
+      "url": "https://pakistan.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Pakistan"
+    },
+    {
+      "subdomain": "palmsprings",
+      "name": "palm springs",
+      "url": "https://palmsprings.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "pampanga",
+      "name": "pampanga",
+      "url": "https://pampanga.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Philippines"
+    },
+    {
+      "subdomain": "panama",
+      "name": "panama",
+      "url": "https://panama.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Panama"
+    },
+    {
+      "subdomain": "panamacity",
+      "name": "panama city",
+      "url": "https://panamacity.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "paris",
+      "name": "paris",
+      "url": "https://paris.craigslist.org",
+      "section": "Europe",
+      "subsection": "France"
+    },
+    {
+      "subdomain": "parkersburg",
+      "name": "parkersburg-marietta",
+      "url": "https://parkersburg.craigslist.org",
+      "section": "US",
+      "subsection": "West Virginia"
+    },
+    {
+      "subdomain": "peace",
+      "name": "peace river country",
+      "url": "https://peace.craigslist.org",
+      "section": "Canada",
+      "subsection": "Alberta"
+    },
+    {
+      "subdomain": "pensacola",
+      "name": "pensacola",
+      "url": "https://pensacola.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "peoria",
+      "name": "peoria",
+      "url": "https://peoria.craigslist.org",
+      "section": "US",
+      "subsection": "Illinois"
+    },
+    {
+      "subdomain": "perth",
+      "name": "perth",
+      "url": "https://perth.craigslist.org",
+      "section": "Oceania",
+      "subsection": "Australia"
+    },
+    {
+      "subdomain": "lima",
+      "name": "peru",
+      "url": "https://lima.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Peru"
+    },
+    {
+      "subdomain": "perugia",
+      "name": "perugia",
+      "url": "https://perugia.craigslist.org",
+      "section": "Europe",
+      "subsection": "Italy"
+    },
+    {
+      "subdomain": "peterborough",
+      "name": "peterborough",
+      "url": "https://peterborough.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "philadelphia",
+      "name": "philadelphia",
+      "url": "https://philadelphia.craigslist.org",
+      "section": "US",
+      "subsection": "Pennsylvania"
+    },
+    {
+      "subdomain": "phoenix",
+      "name": "phoenix",
+      "url": "https://phoenix.craigslist.org",
+      "section": "US",
+      "subsection": "Arizona"
+    },
+    {
+      "subdomain": "csd",
+      "name": "pierre / central SD",
+      "url": "https://csd.craigslist.org",
+      "section": "US",
+      "subsection": "South Dakota"
+    },
+    {
+      "subdomain": "pittsburgh",
+      "name": "pittsburgh",
+      "url": "https://pittsburgh.craigslist.org",
+      "section": "US",
+      "subsection": "Pennsylvania"
+    },
+    {
+      "subdomain": "plattsburgh",
+      "name": "plattsburgh-adirondacks",
+      "url": "https://plattsburgh.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "poconos",
+      "name": "poconos",
+      "url": "https://poconos.craigslist.org",
+      "section": "US",
+      "subsection": "Pennsylvania"
+    },
+    {
+      "subdomain": "warsaw",
+      "name": "poland",
+      "url": "https://warsaw.craigslist.org",
+      "section": "Europe",
+      "subsection": "Poland"
+    },
+    {
+      "subdomain": "porthuron",
+      "name": "port huron",
+      "url": "https://porthuron.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "portland",
+      "name": "portland",
+      "url": "https://portland.craigslist.org",
+      "section": "US",
+      "subsection": "Oregon"
+    },
+    {
+      "subdomain": "porto",
+      "name": "porto",
+      "url": "https://porto.craigslist.org",
+      "section": "Europe",
+      "subsection": "Portugal"
+    },
+    {
+      "subdomain": "portoalegre",
+      "name": "porto alegre",
+      "url": "https://portoalegre.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Brazil"
+    },
+    {
+      "subdomain": "potsdam",
+      "name": "potsdam-canton-massena",
+      "url": "https://potsdam.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "prague",
+      "name": "prague",
+      "url": "https://prague.craigslist.org",
+      "section": "Europe",
+      "subsection": "Czech Republic"
+    },
+    {
+      "subdomain": "prescott",
+      "name": "prescott",
+      "url": "https://prescott.craigslist.org",
+      "section": "US",
+      "subsection": "Arizona"
+    },
+    {
+      "subdomain": "pretoria",
+      "name": "pretoria",
+      "url": "https://pretoria.craigslist.org",
+      "section": "Africa",
+      "subsection": "South Africa"
+    },
+    {
+      "subdomain": "pei",
+      "name": "prince edward island",
+      "url": "https://pei.craigslist.org",
+      "section": "Canada",
+      "subsection": "Prince Edward Island"
+    },
+    {
+      "subdomain": "princegeorge",
+      "name": "prince george",
+      "url": "https://princegeorge.craigslist.org",
+      "section": "Canada",
+      "subsection": "British Columbia"
+    },
+    {
+      "subdomain": "provo",
+      "name": "provo / orem",
+      "url": "https://provo.craigslist.org",
+      "section": "US",
+      "subsection": "Utah"
+    },
+    {
+      "subdomain": "puebla",
+      "name": "puebla",
+      "url": "https://puebla.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Mexico"
+    },
+    {
+      "subdomain": "pueblo",
+      "name": "pueblo",
+      "url": "https://pueblo.craigslist.org",
+      "section": "US",
+      "subsection": "Colorado"
+    },
+    {
+      "subdomain": "puertorico",
+      "name": "puerto rico",
+      "url": "https://puertorico.craigslist.org",
+      "section": "US",
+      "subsection": "Territories"
+    },
+    {
+      "subdomain": "pv",
+      "name": "puerto vallarta",
+      "url": "https://pv.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Mexico"
+    },
+    {
+      "subdomain": "pullman",
+      "name": "pullman / moscow",
+      "url": "https://pullman.craigslist.org",
+      "section": "US",
+      "subsection": "Washington"
+    },
+    {
+      "subdomain": "pune",
+      "name": "pune",
+      "url": "https://pune.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "India"
+    },
+    {
+      "subdomain": "quadcities",
+      "name": "quad cities",
+      "url": "https://quadcities.craigslist.org",
+      "section": "US",
+      "subsection": "Iowa"
+    },
+    {
+      "subdomain": "quebec",
+      "name": "quebec city",
+      "url": "https://quebec.craigslist.org",
+      "section": "Canada",
+      "subsection": "Quebec"
+    },
+    {
+      "subdomain": "raleigh",
+      "name": "raleigh / durham / CH",
+      "url": "https://raleigh.craigslist.org",
+      "section": "US",
+      "subsection": "North Carolina"
+    },
+    {
+      "subdomain": "rapidcity",
+      "name": "rapid city / west SD",
+      "url": "https://rapidcity.craigslist.org",
+      "section": "US",
+      "subsection": "South Dakota"
+    },
+    {
+      "subdomain": "reading",
+      "name": "reading",
+      "url": "https://reading.craigslist.org",
+      "section": "US",
+      "subsection": "Pennsylvania"
+    },
+    {
+      "subdomain": "recife",
+      "name": "recife",
+      "url": "https://recife.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Brazil"
+    },
+    {
+      "subdomain": "reddeer",
+      "name": "red deer",
+      "url": "https://reddeer.craigslist.org",
+      "section": "Canada",
+      "subsection": "Alberta"
+    },
+    {
+      "subdomain": "redding",
+      "name": "redding",
+      "url": "https://redding.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "regina",
+      "name": "regina",
+      "url": "https://regina.craigslist.org",
+      "section": "Canada",
+      "subsection": "Saskatchewan"
+    },
+    {
+      "subdomain": "reno",
+      "name": "reno / tahoe",
+      "url": "https://reno.craigslist.org",
+      "section": "US",
+      "subsection": "Nevada"
+    },
+    {
+      "subdomain": "reykjavik",
+      "name": "reykjavik",
+      "url": "https://reykjavik.craigslist.org",
+      "section": "Europe",
+      "subsection": "Iceland"
+    },
+    {
+      "subdomain": "providence",
+      "name": "rhode island",
+      "url": "https://providence.craigslist.org",
+      "section": "US",
+      "subsection": "Rhode Island"
+    },
+    {
+      "subdomain": "richmondin",
+      "name": "richmond",
+      "url": "https://richmondin.craigslist.org",
+      "section": "US",
+      "subsection": "Indiana"
+    },
+    {
+      "subdomain": "richmond",
+      "name": "richmond",
+      "url": "https://richmond.craigslist.org",
+      "section": "US",
+      "subsection": "Virginia"
+    },
+    {
+      "subdomain": "rio",
+      "name": "rio de janeiro",
+      "url": "https://rio.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Brazil"
+    },
+    {
+      "subdomain": "roanoke",
+      "name": "roanoke",
+      "url": "https://roanoke.craigslist.org",
+      "section": "US",
+      "subsection": "Virginia"
+    },
+    {
+      "subdomain": "rmn",
+      "name": "rochester",
+      "url": "https://rmn.craigslist.org",
+      "section": "US",
+      "subsection": "Minnesota"
+    },
+    {
+      "subdomain": "rochester",
+      "name": "rochester",
+      "url": "https://rochester.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "rockford",
+      "name": "rockford",
+      "url": "https://rockford.craigslist.org",
+      "section": "US",
+      "subsection": "Illinois"
+    },
+    {
+      "subdomain": "bucharest",
+      "name": "romania",
+      "url": "https://bucharest.craigslist.org",
+      "section": "Europe",
+      "subsection": "Romania"
+    },
+    {
+      "subdomain": "rome",
+      "name": "rome",
+      "url": "https://rome.craigslist.org",
+      "section": "Europe",
+      "subsection": "Italy"
+    },
+    {
+      "subdomain": "roseburg",
+      "name": "roseburg",
+      "url": "https://roseburg.craigslist.org",
+      "section": "US",
+      "subsection": "Oregon"
+    },
+    {
+      "subdomain": "roswell",
+      "name": "roswell / carlsbad",
+      "url": "https://roswell.craigslist.org",
+      "section": "US",
+      "subsection": "New Mexico"
+    },
+    {
+      "subdomain": "sacramento",
+      "name": "sacramento",
+      "url": "https://sacramento.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "saginaw",
+      "name": "saginaw-midland-baycity",
+      "url": "https://saginaw.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "saguenay",
+      "name": "saguenay",
+      "url": "https://saguenay.craigslist.org",
+      "section": "Canada",
+      "subsection": "Quebec"
+    },
+    {
+      "subdomain": "salem",
+      "name": "salem",
+      "url": "https://salem.craigslist.org",
+      "section": "US",
+      "subsection": "Oregon"
+    },
+    {
+      "subdomain": "salina",
+      "name": "salina",
+      "url": "https://salina.craigslist.org",
+      "section": "US",
+      "subsection": "Kansas"
+    },
+    {
+      "subdomain": "saltlakecity",
+      "name": "salt lake city",
+      "url": "https://saltlakecity.craigslist.org",
+      "section": "US",
+      "subsection": "Utah"
+    },
+    {
+      "subdomain": "salvador",
+      "name": "salvador, bahia",
+      "url": "https://salvador.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Brazil"
+    },
+    {
+      "subdomain": "sanangelo",
+      "name": "san angelo",
+      "url": "https://sanangelo.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "sanantonio",
+      "name": "san antonio",
+      "url": "https://sanantonio.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "sandiego",
+      "name": "san diego",
+      "url": "https://sandiego.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "sfbay",
+      "name": "san francisco bay area",
+      "url": "https://sfbay.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "slo",
+      "name": "san luis obispo",
+      "url": "https://slo.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "sanmarcos",
+      "name": "san marcos",
+      "url": "https://sanmarcos.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "sandusky",
+      "name": "sandusky",
+      "url": "https://sandusky.craigslist.org",
+      "section": "US",
+      "subsection": "Ohio"
+    },
+    {
+      "subdomain": "santabarbara",
+      "name": "santa barbara",
+      "url": "https://santabarbara.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "santafe",
+      "name": "santa fe / taos",
+      "url": "https://santafe.craigslist.org",
+      "section": "US",
+      "subsection": "New Mexico"
+    },
+    {
+      "subdomain": "santamaria",
+      "name": "santa maria",
+      "url": "https://santamaria.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "saopaulo",
+      "name": "sao paulo",
+      "url": "https://saopaulo.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Brazil"
+    },
+    {
+      "subdomain": "sapporo",
+      "name": "sapporo",
+      "url": "https://sapporo.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Japan"
+    },
+    {
+      "subdomain": "sarasota",
+      "name": "sarasota-bradenton",
+      "url": "https://sarasota.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "sardinia",
+      "name": "sardinia",
+      "url": "https://sardinia.craigslist.org",
+      "section": "Europe",
+      "subsection": "Italy"
+    },
+    {
+      "subdomain": "sarnia",
+      "name": "sarnia",
+      "url": "https://sarnia.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "saskatoon",
+      "name": "saskatoon",
+      "url": "https://saskatoon.craigslist.org",
+      "section": "Canada",
+      "subsection": "Saskatchewan"
+    },
+    {
+      "subdomain": "soo",
+      "name": "sault ste marie",
+      "url": "https://soo.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "savannah",
+      "name": "savannah / hinesville",
+      "url": "https://savannah.craigslist.org",
+      "section": "US",
+      "subsection": "Georgia"
+    },
+    {
+      "subdomain": "scottsbluff",
+      "name": "scottsbluff / panhandle",
+      "url": "https://scottsbluff.craigslist.org",
+      "section": "US",
+      "subsection": "Nebraska"
+    },
+    {
+      "subdomain": "scranton",
+      "name": "scranton / wilkes-barre",
+      "url": "https://scranton.craigslist.org",
+      "section": "US",
+      "subsection": "Pennsylvania"
+    },
+    {
+      "subdomain": "seattle",
+      "name": "seattle-tacoma",
+      "url": "https://seattle.craigslist.org",
+      "section": "US",
+      "subsection": "Washington"
+    },
+    {
+      "subdomain": "sendai",
+      "name": "sendai",
+      "url": "https://sendai.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Japan"
+    },
+    {
+      "subdomain": "seoul",
+      "name": "seoul",
+      "url": "https://seoul.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Korea"
+    },
+    {
+      "subdomain": "sevilla",
+      "name": "sevilla",
+      "url": "https://sevilla.craigslist.org",
+      "section": "Europe",
+      "subsection": "Spain"
+    },
+    {
+      "subdomain": "shanghai",
+      "name": "shanghai",
+      "url": "https://shanghai.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "China"
+    },
+    {
+      "subdomain": "sheboygan",
+      "name": "sheboygan",
+      "url": "https://sheboygan.craigslist.org",
+      "section": "US",
+      "subsection": "Wisconsin"
+    },
+    {
+      "subdomain": "sheffield",
+      "name": "sheffield",
+      "url": "https://sheffield.craigslist.org",
+      "section": "Europe",
+      "subsection": "United Kingdom"
+    },
+    {
+      "subdomain": "shenyang",
+      "name": "shenyang",
+      "url": "https://shenyang.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "China"
+    },
+    {
+      "subdomain": "shenzhen",
+      "name": "shenzhen",
+      "url": "https://shenzhen.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "China"
+    },
+    {
+      "subdomain": "sherbrooke",
+      "name": "sherbrooke",
+      "url": "https://sherbrooke.craigslist.org",
+      "section": "Canada",
+      "subsection": "Quebec"
+    },
+    {
+      "subdomain": "showlow",
+      "name": "show low",
+      "url": "https://showlow.craigslist.org",
+      "section": "US",
+      "subsection": "Arizona"
+    },
+    {
+      "subdomain": "shreveport",
+      "name": "shreveport",
+      "url": "https://shreveport.craigslist.org",
+      "section": "US",
+      "subsection": "Louisiana"
+    },
+    {
+      "subdomain": "sicily",
+      "name": "sicilia",
+      "url": "https://sicily.craigslist.org",
+      "section": "Europe",
+      "subsection": "Italy"
+    },
+    {
+      "subdomain": "sierravista",
+      "name": "sierra vista",
+      "url": "https://sierravista.craigslist.org",
+      "section": "US",
+      "subsection": "Arizona"
+    },
+    {
+      "subdomain": "singapore",
+      "name": "singapore",
+      "url": "https://singapore.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Singapore"
+    },
+    {
+      "subdomain": "siouxcity",
+      "name": "sioux city",
+      "url": "https://siouxcity.craigslist.org",
+      "section": "US",
+      "subsection": "Iowa"
+    },
+    {
+      "subdomain": "siouxfalls",
+      "name": "sioux falls / SE SD",
+      "url": "https://siouxfalls.craigslist.org",
+      "section": "US",
+      "subsection": "South Dakota"
+    },
+    {
+      "subdomain": "siskiyou",
+      "name": "siskiyou county",
+      "url": "https://siskiyou.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "skagit",
+      "name": "skagit / island / SJI",
+      "url": "https://skagit.craigslist.org",
+      "section": "US",
+      "subsection": "Washington"
+    },
+    {
+      "subdomain": "skeena",
+      "name": "skeena-bulkley",
+      "url": "https://skeena.craigslist.org",
+      "section": "Canada",
+      "subsection": "British Columbia"
+    },
+    {
+      "subdomain": "southbend",
+      "name": "south bend / michiana",
+      "url": "https://southbend.craigslist.org",
+      "section": "US",
+      "subsection": "Indiana"
+    },
+    {
+      "subdomain": "southcoast",
+      "name": "south coast",
+      "url": "https://southcoast.craigslist.org",
+      "section": "US",
+      "subsection": "Massachusetts"
+    },
+    {
+      "subdomain": "sd",
+      "name": "south dakota",
+      "url": "https://sd.craigslist.org",
+      "section": "US",
+      "subsection": "South Dakota"
+    },
+    {
+      "subdomain": "southjersey",
+      "name": "south jersey",
+      "url": "https://southjersey.craigslist.org",
+      "section": "US",
+      "subsection": "New Jersey"
+    },
+    {
+      "subdomain": "juneau",
+      "name": "southeast alaska",
+      "url": "https://juneau.craigslist.org",
+      "section": "US",
+      "subsection": "Alaska"
+    },
+    {
+      "subdomain": "ottumwa",
+      "name": "southeast IA",
+      "url": "https://ottumwa.craigslist.org",
+      "section": "US",
+      "subsection": "Iowa"
+    },
+    {
+      "subdomain": "seks",
+      "name": "southeast KS",
+      "url": "https://seks.craigslist.org",
+      "section": "US",
+      "subsection": "Kansas"
+    },
+    {
+      "subdomain": "semo",
+      "name": "southeast missouri",
+      "url": "https://semo.craigslist.org",
+      "section": "US",
+      "subsection": "Missouri"
+    },
+    {
+      "subdomain": "carbondale",
+      "name": "southern illinois",
+      "url": "https://carbondale.craigslist.org",
+      "section": "US",
+      "subsection": "Illinois"
+    },
+    {
+      "subdomain": "smd",
+      "name": "southern maryland",
+      "url": "https://smd.craigslist.org",
+      "section": "US",
+      "subsection": "Maryland"
+    },
+    {
+      "subdomain": "swv",
+      "name": "southern WV",
+      "url": "https://swv.craigslist.org",
+      "section": "US",
+      "subsection": "West Virginia"
+    },
+    {
+      "subdomain": "swks",
+      "name": "southwest KS",
+      "url": "https://swks.craigslist.org",
+      "section": "US",
+      "subsection": "Kansas"
+    },
+    {
+      "subdomain": "swmi",
+      "name": "southwest michigan",
+      "url": "https://swmi.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "marshall",
+      "name": "southwest MN",
+      "url": "https://marshall.craigslist.org",
+      "section": "US",
+      "subsection": "Minnesota"
+    },
+    {
+      "subdomain": "natchez",
+      "name": "southwest MS",
+      "url": "https://natchez.craigslist.org",
+      "section": "US",
+      "subsection": "Mississippi"
+    },
+    {
+      "subdomain": "bigbend",
+      "name": "southwest TX",
+      "url": "https://bigbend.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "swva",
+      "name": "southwest VA",
+      "url": "https://swva.craigslist.org",
+      "section": "US",
+      "subsection": "Virginia"
+    },
+    {
+      "subdomain": "spacecoast",
+      "name": "space coast",
+      "url": "https://spacecoast.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "spokane",
+      "name": "spokane / coeur d'alene",
+      "url": "https://spokane.craigslist.org",
+      "section": "US",
+      "subsection": "Washington"
+    },
+    {
+      "subdomain": "springfieldil",
+      "name": "springfield",
+      "url": "https://springfieldil.craigslist.org",
+      "section": "US",
+      "subsection": "Illinois"
+    },
+    {
+      "subdomain": "springfield",
+      "name": "springfield",
+      "url": "https://springfield.craigslist.org",
+      "section": "US",
+      "subsection": "Missouri"
+    },
+    {
+      "subdomain": "staugustine",
+      "name": "st augustine",
+      "url": "https://staugustine.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "stcloud",
+      "name": "st cloud",
+      "url": "https://stcloud.craigslist.org",
+      "section": "US",
+      "subsection": "Minnesota"
+    },
+    {
+      "subdomain": "stgeorge",
+      "name": "st george",
+      "url": "https://stgeorge.craigslist.org",
+      "section": "US",
+      "subsection": "Utah"
+    },
+    {
+      "subdomain": "newfoundland",
+      "name": "st john's",
+      "url": "https://newfoundland.craigslist.org",
+      "section": "Canada",
+      "subsection": "Newfoundland and Labrador"
+    },
+    {
+      "subdomain": "stjoseph",
+      "name": "st joseph",
+      "url": "https://stjoseph.craigslist.org",
+      "section": "US",
+      "subsection": "Missouri"
+    },
+    {
+      "subdomain": "stlouis",
+      "name": "st louis",
+      "url": "https://stlouis.craigslist.org",
+      "section": "US",
+      "subsection": "Missouri"
+    },
+    {
+      "subdomain": "stpetersburg",
+      "name": "st petersburg",
+      "url": "https://stpetersburg.craigslist.org",
+      "section": "Europe",
+      "subsection": "Russian Federation"
+    },
+    {
+      "subdomain": "pennstate",
+      "name": "state college",
+      "url": "https://pennstate.craigslist.org",
+      "section": "US",
+      "subsection": "Pennsylvania"
+    },
+    {
+      "subdomain": "statesboro",
+      "name": "statesboro",
+      "url": "https://statesboro.craigslist.org",
+      "section": "US",
+      "subsection": "Georgia"
+    },
+    {
+      "subdomain": "stillwater",
+      "name": "stillwater",
+      "url": "https://stillwater.craigslist.org",
+      "section": "US",
+      "subsection": "Oklahoma"
+    },
+    {
+      "subdomain": "stockton",
+      "name": "stockton",
+      "url": "https://stockton.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "strasbourg",
+      "name": "strasbourg",
+      "url": "https://strasbourg.craigslist.org",
+      "section": "Europe",
+      "subsection": "France"
+    },
+    {
+      "subdomain": "stuttgart",
+      "name": "stuttgart",
+      "url": "https://stuttgart.craigslist.org",
+      "section": "Europe",
+      "subsection": "Germany"
+    },
+    {
+      "subdomain": "sudbury",
+      "name": "sudbury",
+      "url": "https://sudbury.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "sunshine",
+      "name": "sunshine coast",
+      "url": "https://sunshine.craigslist.org",
+      "section": "Canada",
+      "subsection": "British Columbia"
+    },
+    {
+      "subdomain": "surat",
+      "name": "surat surat",
+      "url": "https://surat.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "India"
+    },
+    {
+      "subdomain": "susanville",
+      "name": "susanville",
+      "url": "https://susanville.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "stockholm",
+      "name": "sweden",
+      "url": "https://stockholm.craigslist.org",
+      "section": "Europe",
+      "subsection": "Sweden"
+    },
+    {
+      "subdomain": "sydney",
+      "name": "sydney",
+      "url": "https://sydney.craigslist.org",
+      "section": "Oceania",
+      "subsection": "Australia"
+    },
+    {
+      "subdomain": "syracuse",
+      "name": "syracuse",
+      "url": "https://syracuse.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "taipei",
+      "name": "taiwan",
+      "url": "https://taipei.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Taiwan"
+    },
+    {
+      "subdomain": "tallahassee",
+      "name": "tallahassee",
+      "url": "https://tallahassee.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "tampa",
+      "name": "tampa bay area",
+      "url": "https://tampa.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "hobart",
+      "name": "tasmania",
+      "url": "https://hobart.craigslist.org",
+      "section": "Oceania",
+      "subsection": "Australia"
+    },
+    {
+      "subdomain": "telaviv",
+      "name": "tel aviv",
+      "url": "https://telaviv.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Israel and Palestine"
+    },
+    {
+      "subdomain": "terrehaute",
+      "name": "terre haute",
+      "url": "https://terrehaute.craigslist.org",
+      "section": "US",
+      "subsection": "Indiana"
+    },
+    {
+      "subdomain": "territories",
+      "name": "territories",
+      "url": "https://territories.craigslist.org",
+      "section": "Canada",
+      "subsection": "Northwest Territories"
+    },
+    {
+      "subdomain": "texarkana",
+      "name": "texarkana",
+      "url": "https://texarkana.craigslist.org",
+      "section": "US",
+      "subsection": "Arkansas"
+    },
+    {
+      "subdomain": "texoma",
+      "name": "texoma",
+      "url": "https://texoma.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "bangkok",
+      "name": "thailand",
+      "url": "https://bangkok.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Thailand"
+    },
+    {
+      "subdomain": "thumb",
+      "name": "the thumb",
+      "url": "https://thumb.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "thunderbay",
+      "name": "thunder bay",
+      "url": "https://thunderbay.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "tijuana",
+      "name": "tijuana",
+      "url": "https://tijuana.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Mexico"
+    },
+    {
+      "subdomain": "tokyo",
+      "name": "tokyo",
+      "url": "https://tokyo.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Japan"
+    },
+    {
+      "subdomain": "toledo",
+      "name": "toledo",
+      "url": "https://toledo.craigslist.org",
+      "section": "US",
+      "subsection": "Ohio"
+    },
+    {
+      "subdomain": "topeka",
+      "name": "topeka",
+      "url": "https://topeka.craigslist.org",
+      "section": "US",
+      "subsection": "Kansas"
+    },
+    {
+      "subdomain": "torino",
+      "name": "torino",
+      "url": "https://torino.craigslist.org",
+      "section": "Europe",
+      "subsection": "Italy"
+    },
+    {
+      "subdomain": "toronto",
+      "name": "toronto",
+      "url": "https://toronto.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "toulouse",
+      "name": "toulouse",
+      "url": "https://toulouse.craigslist.org",
+      "section": "Europe",
+      "subsection": "France"
+    },
+    {
+      "subdomain": "treasure",
+      "name": "treasure coast",
+      "url": "https://treasure.craigslist.org",
+      "section": "US",
+      "subsection": "Florida"
+    },
+    {
+      "subdomain": "tricities",
+      "name": "tri-cities",
+      "url": "https://tricities.craigslist.org",
+      "section": "US",
+      "subsection": "Tennessee"
+    },
+    {
+      "subdomain": "troisrivieres",
+      "name": "trois-rivieres",
+      "url": "https://troisrivieres.craigslist.org",
+      "section": "Canada",
+      "subsection": "Quebec"
+    },
+    {
+      "subdomain": "tucson",
+      "name": "tucson",
+      "url": "https://tucson.craigslist.org",
+      "section": "US",
+      "subsection": "Arizona"
+    },
+    {
+      "subdomain": "tulsa",
+      "name": "tulsa",
+      "url": "https://tulsa.craigslist.org",
+      "section": "US",
+      "subsection": "Oklahoma"
+    },
+    {
+      "subdomain": "tunis",
+      "name": "tunisia",
+      "url": "https://tunis.craigslist.org",
+      "section": "Africa",
+      "subsection": "Tunisia"
+    },
+    {
+      "subdomain": "istanbul",
+      "name": "turkey",
+      "url": "https://istanbul.craigslist.org",
+      "section": "Europe",
+      "subsection": "Turkey"
+    },
+    {
+      "subdomain": "tuscaloosa",
+      "name": "tuscaloosa",
+      "url": "https://tuscaloosa.craigslist.org",
+      "section": "US",
+      "subsection": "Alabama"
+    },
+    {
+      "subdomain": "tuscarawas",
+      "name": "tuscarawas co",
+      "url": "https://tuscarawas.craigslist.org",
+      "section": "US",
+      "subsection": "Ohio"
+    },
+    {
+      "subdomain": "twinfalls",
+      "name": "twin falls",
+      "url": "https://twinfalls.craigslist.org",
+      "section": "US",
+      "subsection": "Idaho"
+    },
+    {
+      "subdomain": "twintiers",
+      "name": "twin tiers NY/PA",
+      "url": "https://twintiers.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "easttexas",
+      "name": "tyler / east TX",
+      "url": "https://easttexas.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "virgin",
+      "name": "U.S. virgin islands",
+      "url": "https://virgin.craigslist.org",
+      "section": "US",
+      "subsection": "Territories"
+    },
+    {
+      "subdomain": "ukraine",
+      "name": "ukraine",
+      "url": "https://ukraine.craigslist.org",
+      "section": "Europe",
+      "subsection": "Ukraine"
+    },
+    {
+      "subdomain": "dubai",
+      "name": "united arab emirates",
+      "url": "https://dubai.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "United Arab Emirates"
+    },
+    {
+      "subdomain": "up",
+      "name": "upper peninsula",
+      "url": "https://up.craigslist.org",
+      "section": "US",
+      "subsection": "Michigan"
+    },
+    {
+      "subdomain": "utica",
+      "name": "utica-rome-oneida",
+      "url": "https://utica.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "valdosta",
+      "name": "valdosta",
+      "url": "https://valdosta.craigslist.org",
+      "section": "US",
+      "subsection": "Georgia"
+    },
+    {
+      "subdomain": "valencia",
+      "name": "valencia",
+      "url": "https://valencia.craigslist.org",
+      "section": "Europe",
+      "subsection": "Spain"
+    },
+    {
+      "subdomain": "vancouver",
+      "name": "vancouver",
+      "url": "https://vancouver.craigslist.org",
+      "section": "Canada",
+      "subsection": "British Columbia"
+    },
+    {
+      "subdomain": "caracas",
+      "name": "venezuela",
+      "url": "https://caracas.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Venezuela"
+    },
+    {
+      "subdomain": "venice",
+      "name": "venice / veneto",
+      "url": "https://venice.craigslist.org",
+      "section": "Europe",
+      "subsection": "Italy"
+    },
+    {
+      "subdomain": "ventura",
+      "name": "ventura county",
+      "url": "https://ventura.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "veracruz",
+      "name": "veracruz",
+      "url": "https://veracruz.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Mexico"
+    },
+    {
+      "subdomain": "vermont",
+      "name": "vermont",
+      "url": "https://vermont.craigslist.org",
+      "section": "US",
+      "subsection": "Vermont"
+    },
+    {
+      "subdomain": "victoriatx",
+      "name": "victoria",
+      "url": "https://victoriatx.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "victoria",
+      "name": "victoria",
+      "url": "https://victoria.craigslist.org",
+      "section": "Canada",
+      "subsection": "British Columbia"
+    },
+    {
+      "subdomain": "vienna",
+      "name": "vienna",
+      "url": "https://vienna.craigslist.org",
+      "section": "Europe",
+      "subsection": "Austria"
+    },
+    {
+      "subdomain": "vietnam",
+      "name": "vietnam",
+      "url": "https://vietnam.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Vietnam"
+    },
+    {
+      "subdomain": "visalia",
+      "name": "visalia-tulare",
+      "url": "https://visalia.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "waco",
+      "name": "waco",
+      "url": "https://waco.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "washingtondc",
+      "name": "washington",
+      "url": "https://washingtondc.craigslist.org",
+      "section": "US",
+      "subsection": "District of Columbia"
+    },
+    {
+      "subdomain": "waterloo",
+      "name": "waterloo / cedar falls",
+      "url": "https://waterloo.craigslist.org",
+      "section": "US",
+      "subsection": "Iowa"
+    },
+    {
+      "subdomain": "watertown",
+      "name": "watertown",
+      "url": "https://watertown.craigslist.org",
+      "section": "US",
+      "subsection": "New York"
+    },
+    {
+      "subdomain": "wausau",
+      "name": "wausau",
+      "url": "https://wausau.craigslist.org",
+      "section": "US",
+      "subsection": "Wisconsin"
+    },
+    {
+      "subdomain": "wellington",
+      "name": "wellington",
+      "url": "https://wellington.craigslist.org",
+      "section": "Oceania",
+      "subsection": "New Zealand"
+    },
+    {
+      "subdomain": "wenatchee",
+      "name": "wenatchee",
+      "url": "https://wenatchee.craigslist.org",
+      "section": "US",
+      "subsection": "Washington"
+    },
+    {
+      "subdomain": "ramallah",
+      "name": "west bank",
+      "url": "https://ramallah.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Israel and Palestine"
+    },
+    {
+      "subdomain": "wv",
+      "name": "west virginia (old)",
+      "url": "https://wv.craigslist.org",
+      "section": "US",
+      "subsection": "West Virginia"
+    },
+    {
+      "subdomain": "quincy",
+      "name": "western IL",
+      "url": "https://quincy.craigslist.org",
+      "section": "US",
+      "subsection": "Illinois"
+    },
+    {
+      "subdomain": "westky",
+      "name": "western KY",
+      "url": "https://westky.craigslist.org",
+      "section": "US",
+      "subsection": "Kentucky"
+    },
+    {
+      "subdomain": "westmd",
+      "name": "western maryland",
+      "url": "https://westmd.craigslist.org",
+      "section": "US",
+      "subsection": "Maryland"
+    },
+    {
+      "subdomain": "westernmass",
+      "name": "western massachusetts",
+      "url": "https://westernmass.craigslist.org",
+      "section": "US",
+      "subsection": "Massachusetts"
+    },
+    {
+      "subdomain": "westslope",
+      "name": "western slope",
+      "url": "https://westslope.craigslist.org",
+      "section": "US",
+      "subsection": "Colorado"
+    },
+    {
+      "subdomain": "whistler",
+      "name": "whistler",
+      "url": "https://whistler.craigslist.org",
+      "section": "Canada",
+      "subsection": "British Columbia"
+    },
+    {
+      "subdomain": "whitehorse",
+      "name": "whitehorse",
+      "url": "https://whitehorse.craigslist.org",
+      "section": "Canada",
+      "subsection": "Yukon Territory"
+    },
+    {
+      "subdomain": "wichita",
+      "name": "wichita",
+      "url": "https://wichita.craigslist.org",
+      "section": "US",
+      "subsection": "Kansas"
+    },
+    {
+      "subdomain": "wichitafalls",
+      "name": "wichita falls",
+      "url": "https://wichitafalls.craigslist.org",
+      "section": "US",
+      "subsection": "Texas"
+    },
+    {
+      "subdomain": "williamsport",
+      "name": "williamsport",
+      "url": "https://williamsport.craigslist.org",
+      "section": "US",
+      "subsection": "Pennsylvania"
+    },
+    {
+      "subdomain": "wilmington",
+      "name": "wilmington",
+      "url": "https://wilmington.craigslist.org",
+      "section": "US",
+      "subsection": "North Carolina"
+    },
+    {
+      "subdomain": "winchester",
+      "name": "winchester",
+      "url": "https://winchester.craigslist.org",
+      "section": "US",
+      "subsection": "Virginia"
+    },
+    {
+      "subdomain": "windsor",
+      "name": "windsor",
+      "url": "https://windsor.craigslist.org",
+      "section": "Canada",
+      "subsection": "Ontario"
+    },
+    {
+      "subdomain": "winnipeg",
+      "name": "winnipeg",
+      "url": "https://winnipeg.craigslist.org",
+      "section": "Canada",
+      "subsection": "Manitoba"
+    },
+    {
+      "subdomain": "winstonsalem",
+      "name": "winston-salem",
+      "url": "https://winstonsalem.craigslist.org",
+      "section": "US",
+      "subsection": "North Carolina"
+    },
+    {
+      "subdomain": "wollongong",
+      "name": "wollongong",
+      "url": "https://wollongong.craigslist.org",
+      "section": "Oceania",
+      "subsection": "Australia"
+    },
+    {
+      "subdomain": "worcester",
+      "name": "worcester / central MA",
+      "url": "https://worcester.craigslist.org",
+      "section": "US",
+      "subsection": "Massachusetts"
+    },
+    {
+      "subdomain": "wuhan",
+      "name": "wuhan",
+      "url": "https://wuhan.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "China"
+    },
+    {
+      "subdomain": "wyoming",
+      "name": "wyoming",
+      "url": "https://wyoming.craigslist.org",
+      "section": "US",
+      "subsection": "Wyoming"
+    },
+    {
+      "subdomain": "xian",
+      "name": "xi'an",
+      "url": "https://xian.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "China"
+    },
+    {
+      "subdomain": "yakima",
+      "name": "yakima",
+      "url": "https://yakima.craigslist.org",
+      "section": "US",
+      "subsection": "Washington"
+    },
+    {
+      "subdomain": "yellowknife",
+      "name": "yellowknife",
+      "url": "https://yellowknife.craigslist.org",
+      "section": "Canada",
+      "subsection": "Northwest Territories"
+    },
+    {
+      "subdomain": "york",
+      "name": "york",
+      "url": "https://york.craigslist.org",
+      "section": "US",
+      "subsection": "Pennsylvania"
+    },
+    {
+      "subdomain": "youngstown",
+      "name": "youngstown",
+      "url": "https://youngstown.craigslist.org",
+      "section": "US",
+      "subsection": "Ohio"
+    },
+    {
+      "subdomain": "yubasutter",
+      "name": "yuba-sutter",
+      "url": "https://yubasutter.craigslist.org",
+      "section": "US",
+      "subsection": "California"
+    },
+    {
+      "subdomain": "yucatan",
+      "name": "yucatan",
+      "url": "https://yucatan.craigslist.org",
+      "section": "Latin America and Caribbean",
+      "subsection": "Mexico"
+    },
+    {
+      "subdomain": "yuma",
+      "name": "yuma",
+      "url": "https://yuma.craigslist.org",
+      "section": "US",
+      "subsection": "Arizona"
+    },
+    {
+      "subdomain": "zamboanga",
+      "name": "zamboanga",
+      "url": "https://zamboanga.craigslist.org",
+      "section": "Asia, Pacific and Middle East",
+      "subsection": "Philippines"
+    },
+    {
+      "subdomain": "zanesville",
+      "name": "zanesville / cambridge",
+      "url": "https://zanesville.craigslist.org",
+      "section": "US",
+      "subsection": "Ohio"
+    },
+    {
+      "subdomain": "zurich",
+      "name": "zurich",
+      "url": "https://zurich.craigslist.org",
+      "section": "Europe",
+      "subsection": "Switzerland"
+    }
+  ]
+}

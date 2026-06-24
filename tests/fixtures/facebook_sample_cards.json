@@ -1,0 +1,18 @@
+[
+  {
+    "listing_id": "123456789",
+    "href": "https://www.facebook.com/marketplace/item/123456789",
+    "lines": ["2019 Toyota Camry", "$18,500", "Dallas, TX"],
+    "image": "https://example.com/img.jpg"
+  },
+  {
+    "listing_id": "987654321",
+    "href": "https://www.facebook.com/marketplace/item/987654321",
+    "lines": ["2015 Honda Civic", "$12,000", "Seattle, WA"],
+    "image": null
+  },
+  {
+    "lines": ["No id card"],
+    "image": null
+  }
+]
