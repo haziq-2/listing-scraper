@@ -5,5 +5,7 @@ venv/
 .env
 data/*.db
 data/fb_profile/
+data/cargurus_profile/
+listings.csv
 logs/*.log
 .DS_Store
