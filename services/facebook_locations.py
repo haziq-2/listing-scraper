@@ -64,6 +64,36 @@ FACEBOOK_SLUG_OVERRIDES: dict[str, str] = {
     "philly": "philadelphia",
 }
 
+# Cities that share one Marketplace feed. A search for any member keeps the others.
+METRO_LOCATION_GROUPS: tuple[frozenset[str], ...] = (
+    frozenset(
+        {
+            "dallas",
+            "fort worth",
+            "arlington",
+            "plano",
+            "frisco",
+            "irving",
+            "garland",
+            "mckinney",
+            "richardson",
+            "carrollton",
+            "denton",
+            "mesquite",
+            "grand prairie",
+            "lewisville",
+            "euless",
+            "bedford",
+            "grapevine",
+            "allen",
+            "flower mound",
+            "rowlett",
+            "wylie",
+            "dfw",
+        }
+    ),
+)
+
 # Allowed radius values (miles) for Facebook Marketplace URL param.
 FB_RADIUS_MILES: tuple[int, ...] = (1, 2, 5, 10, 20, 40, 60, 80, 100, 250, 500)
 
@@ -121,9 +151,9 @@ class FacebookLocationResolver:
         if input_city:
             tokens.add(input_city)
 
-        # Metro aliases: Fort Worth searches use the Dallas FB marketplace slug.
-        if input_city in {"fort worth", "arlington", "plano", "frisco", "irving", "garland", "mckinney"}:
-            tokens.update({"dallas", "fort worth", "arlington", "plano", "frisco", "irving", "garland", "mckinney"})
+        for metro in METRO_LOCATION_GROUPS:
+            if tokens & metro:
+                tokens.update(metro)
 
         return {t for t in tokens if len(t) >= 3}
 

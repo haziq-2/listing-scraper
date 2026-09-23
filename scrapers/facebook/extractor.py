@@ -20,7 +20,6 @@ from scrapers.facebook.normalizer import (
 )
 from scrapers.facebook.selectors import SELECTORS, primary
 from services.city_resolver import ResolvedCity
-from services.facebook_locations import FacebookLocationResolver
 
 # JavaScript run in the browser to extract card data from listing anchors.
 _CARD_EXTRACTION_JS = """
@@ -51,9 +50,6 @@ _CARD_EXTRACTION_JS = """
 class MarketplaceExtractor:
     """Extracts listing cards from a Playwright page and parses them."""
 
-    def __init__(self, location_resolver: FacebookLocationResolver | None = None) -> None:
-        self._locations = location_resolver or FacebookLocationResolver()
-
     def extract_cards_from_page(self, page) -> list[dict[str, Any]]:
         selector = primary(SELECTORS.listing_link)
         raw_cards: list[dict] = page.eval_on_selector_all(selector, _CARD_EXTRACTION_JS)
@@ -65,28 +61,22 @@ class MarketplaceExtractor:
         region: ResolvedCity,
         metrics: ScrapeMetrics,
     ) -> list[VehicleListing]:
-        tokens = set(region.facebook_location_tokens or [])
-        if not tokens and region.city:
-            tokens = self._locations.region_location_tokens(
-                raw_input=region.raw_input,
-                city=region.city,
-                state=region.state,
-                country=region.country,
-            )
-
+        # Keep every parsed card. Marketplace often labels a listing with a
+        # nearby city even when it belongs in the searched feed.
         listings: dict[str, VehicleListing] = {}
         for card in cards:
             listing = self._parse_card(card, metrics)
             if not listing:
                 continue
             metrics.listings_parsed += 1
-            if tokens and not self._locations.listing_matches_region(listing.location, tokens):
-                metrics.listings_skipped_location += 1
-                logger.debug("Filtered non-local listing: {} ({})", listing.title, listing.location)
-                continue
             listings[listing.listing_id] = listing
 
         metrics.listings_kept = len(listings)
+        logger.debug(
+            "Kept {} Facebook card(s) for {} (other cities included)",
+            metrics.listings_kept,
+            region.raw_input,
+        )
         return list(listings.values())
 
     def _parse_card(self, card: dict[str, Any], metrics: ScrapeMetrics) -> VehicleListing | None:

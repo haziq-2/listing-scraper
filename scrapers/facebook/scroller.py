@@ -15,10 +15,27 @@ except ImportError:  # pragma: no cover
 
 _SCROLL_JS = """
 () => {
-    const feeds = %s;
-    for (const sel of feeds) {
-        const feed = document.querySelector(sel);
-        if (feed) { feed.scrollBy(0, 1800); return true; }
+    const links = document.querySelectorAll("a[href*='/marketplace/item/']");
+    const last = links.length ? links[links.length - 1] : null;
+    if (last) last.scrollIntoView({block: "end", inline: "nearest"});
+
+    const roots = [];
+    if (last) roots.push(last);
+    for (const sel of %s) {
+        const node = document.querySelector(sel);
+        if (node) roots.push(node);
+    }
+    const seen = new Set();
+    for (const start of roots) {
+        let node = start;
+        while (node && !seen.has(node)) {
+            seen.add(node);
+            const style = getComputedStyle(node);
+            const canScroll = /(auto|scroll|overlay)/.test(style.overflowY)
+                && node.scrollHeight > node.clientHeight + 40;
+            if (canScroll) node.scrollBy(0, Math.max(1400, node.clientHeight * 0.85));
+            node = node.parentElement;
+        }
     }
     window.scrollBy(0, 1800);
     return true;
@@ -99,6 +116,8 @@ class MarketplaceScroller:
 
             try:
                 page.evaluate(_SCROLL_JS)
+                if new_count == 0:
+                    page.keyboard.press("End")
                 page.wait_for_timeout(self.scroll_wait_ms)
             except PWError as exc:
                 if _is_transient_page_error(exc):

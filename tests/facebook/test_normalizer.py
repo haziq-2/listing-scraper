@@ -25,6 +25,13 @@ def test_parse_title_skips_price_line():
     assert parse_title(["2019 Toyota Camry", "$18,500", "Dallas, TX"]) == "2019 Toyota Camry"
 
 
+def test_parse_title_skips_just_listed_badge():
+    lines = ["Just listed", "$20,524", "2025 Jeep compass", "San Antonio, TX"]
+    assert parse_title(lines) == "2025 Jeep compass"
+    assert parse_location(lines) == "San Antonio, TX"
+    assert parse_year(parse_title(lines) or "") == 2025
+
+
 def test_parse_location_from_tail():
     assert parse_location(["2019 Toyota Camry", "$18,500", "Dallas, TX"]) == "Dallas, TX"
 

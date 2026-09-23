@@ -27,7 +27,9 @@ _SEARCH_PATHS: tuple[tuple[str, str], ...] = (
     ("cta", "all"),
 )
 
-_ID_RE = re.compile(r"/(\d+)\.html")
+_LEGACY_ID_RE = re.compile(r"/(\d+)\.html")
+# Current listing URLs: /view/d/{slug}/{opaqueId}
+_VIEW_ID_RE = re.compile(r"/view/d/[^/?#]+/([A-Za-z0-9_-]+)/?(?:[?#]|$)")
 _PRICE_RE = re.compile(r"[\d,]+")
 _YEAR_RE = re.compile(r"\b(19[5-9]\d|20[0-4]\d)\b")
 
@@ -55,7 +57,10 @@ class CraigslistScraper:
         """Return listings discovered for the resolved city (sequential)."""
         results: dict[str, VehicleListing] = {}
         for path, channel in _SEARCH_PATHS:
-            url = f"{city.craigslist_base_url}/search/{path}?sort=date"
+            url = (
+                f"https://www.craigslist.org/search/area/{city.craigslist_subdomain}"
+                f"?cat={path}&sort=date"
+            )
             logger.info("Craigslist scraping {} listings: {}", channel, url)
             try:
                 html = self._fetch(url)
@@ -99,6 +104,12 @@ class CraigslistScraper:
         if not nodes:
             # Fallback for the JS gallery markup if it is ever returned.
             nodes = soup.select("li.cl-search-result")
+        if not nodes:
+            logger.warning(
+                "Craigslist search page had no listing nodes ({} bytes). "
+                "The results markup may have changed or the request was blocked.",
+                len(html),
+            )
 
         for node in nodes:
             try:
@@ -108,6 +119,11 @@ class CraigslistScraper:
                 continue
             if listing:
                 listings.append(listing)
+        if nodes and not listings:
+            logger.warning(
+                "Craigslist found {} result node(s) but parsed 0 listings",
+                len(nodes),
+            )
         return listings
 
     def _parse_node(self, node, city: ResolvedCity) -> VehicleListing | None:
@@ -118,14 +134,9 @@ class CraigslistScraper:
         if not url.startswith("http"):
             url = urljoin(city.craigslist_base_url, url)
 
-        match = _ID_RE.search(url)
-        if not match:
-            data_pid = node.get("data-pid")
-            if not data_pid:
-                return None
-            listing_id = str(data_pid)
-        else:
-            listing_id = match.group(1)
+        listing_id = self._listing_id(url, node)
+        if not listing_id:
+            return None
 
         title_el = node.select_one(".title") or anchor
         title = title_el.get_text(strip=True) or node.get("title") or "Untitled listing"
@@ -228,6 +239,19 @@ class CraigslistScraper:
                     attrs.setdefault("transmission", valu.get_text(strip=True))
 
         return attrs
+
+    @staticmethod
+    def _listing_id(url: str, node) -> str | None:
+        legacy = _LEGACY_ID_RE.search(url)
+        if legacy:
+            return legacy.group(1)
+        viewed = _VIEW_ID_RE.search(url)
+        if viewed:
+            return viewed.group(1)
+        data_pid = node.get("data-pid")
+        if data_pid:
+            return str(data_pid)
+        return None
 
     @staticmethod
     def _parse_price(node) -> float | None:

@@ -32,8 +32,9 @@ def test_parse_cards_from_fixture():
     extractor = MarketplaceExtractor()
     listings = extractor.parse_cards(cards, _region(), metrics)
 
-    assert len(listings) == 1
+    assert len(listings) == 2
     assert metrics.extraction_failures == 1
-    assert metrics.listings_skipped_location == 1
+    assert metrics.listings_skipped_location == 0
     titles = {l.title for l in listings}
     assert "2019 Toyota Camry" in titles
+    assert "2015 Honda Civic" in titles

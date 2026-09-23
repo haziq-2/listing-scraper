@@ -62,7 +62,7 @@ class RegionResolver:
         self._settings = get_settings()
 
     def resolve(self, raw_input: str, radius_km: float | None = None) -> ResolvedRegion:
-        text = (raw_input or "").strip()
+        text = re.sub(r"\s+", " ", (raw_input or "")).strip()
         if not text:
             raise ValueError("Region input cannot be empty")
 

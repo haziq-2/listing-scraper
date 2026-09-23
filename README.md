@@ -128,20 +128,20 @@ the session locally.
 All settings live in `config.py` and can be overridden via environment variables
 (or a `.env` file). See `.env.example` for the full list.
 
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `AUTOWATCH_DB_PATH` | `data/vehicles.db` | SQLite database location |
-| `AUTOWATCH_SEARCH_RADIUS_KM` | `80` | Facebook search radius (converted to FB miles) |
-| `AUTOWATCH_CRAIGSLIST_MAX_LISTINGS` | `350` | Max Craigslist listings per run |
-| `AUTOWATCH_FACEBOOK_MAX_LISTINGS` | `100` | Max Facebook listings per run |
-| `AUTOWATCH_FACEBOOK_MAX_SCROLLS` | `25` | Max infinite-scroll iterations |
-| `AUTOWATCH_FACEBOOK_SCROLL_STALL_ATTEMPTS` | `3` | Stop scrolling after N passes with no new cards |
-| `AUTOWATCH_FACEBOOK_SCROLL_WAIT_MS` | `2500` | Wait after each scroll (ms) |
-| `AUTOWATCH_FACEBOOK_HEADLESS` | `false` | Run Facebook browser headless |
-| `AUTOWATCH_FACEBOOK_PROFILE_DIR` | `data/fb_profile` | Persistent browser profile |
-| `AUTOWATCH_FACEBOOK_AUTH_TIMEOUT_SECONDS` | `300` | Interactive login wait timeout |
-| `AUTOWATCH_POLL_INTERVAL_SECONDS` | `300` | Watch mode base interval |
-| `AUTOWATCH_LOG_LEVEL` | `INFO` | Console log level |
+| Variable                                   | Default            | Description                                     |
+| ------------------------------------------ | ------------------ | ----------------------------------------------- |
+| `AUTOWATCH_DB_PATH`                        | `data/vehicles.db` | SQLite database location                        |
+| `AUTOWATCH_SEARCH_RADIUS_KM`               | `80`               | Facebook search radius (converted to FB miles)  |
+| `AUTOWATCH_CRAIGSLIST_MAX_LISTINGS`        | `350`              | Max Craigslist listings per run                 |
+| `AUTOWATCH_FACEBOOK_MAX_LISTINGS`          | `100`              | Max Facebook listings per run                   |
+| `AUTOWATCH_FACEBOOK_MAX_SCROLLS`           | `25`               | Max infinite-scroll iterations                  |
+| `AUTOWATCH_FACEBOOK_SCROLL_STALL_ATTEMPTS` | `3`                | Stop scrolling after N passes with no new cards |
+| `AUTOWATCH_FACEBOOK_SCROLL_WAIT_MS`        | `2500`             | Wait after each scroll (ms)                     |
+| `AUTOWATCH_FACEBOOK_HEADLESS`              | `false`            | Run Facebook browser headless                   |
+| `AUTOWATCH_FACEBOOK_PROFILE_DIR`           | `data/fb_profile`  | Persistent browser profile                      |
+| `AUTOWATCH_FACEBOOK_AUTH_TIMEOUT_SECONDS`  | `300`              | Interactive login wait timeout                  |
+| `AUTOWATCH_POLL_INTERVAL_SECONDS`          | `300`              | Watch mode base interval                        |
+| `AUTOWATCH_LOG_LEVEL`                      | `INFO`             | Console log level                               |
 
 ## Project structure
 
@@ -184,12 +184,12 @@ All settings live in `config.py` and can be overridden via environment variables
 
 SQLite stores one row per `(source, listing_id)`. Key columns:
 
-| Column | Description |
-|--------|-------------|
-| `first_seen` | When AutoWatch first discovered the listing |
-| `last_seen` | Most recent scrape that included this listing |
-| `price` / `currency` | Parsed listing price |
-| `raw_payload` | Raw Facebook card JSON (debugging) |
+| Column               | Description                                   |
+| -------------------- | --------------------------------------------- |
+| `first_seen`         | When AutoWatch first discovered the listing   |
+| `last_seen`          | Most recent scrape that included this listing |
+| `price` / `currency` | Parsed listing price                          |
+| `raw_payload`        | Raw Facebook card JSON (debugging)            |
 
 Migrations run automatically on startup via `storage/migrations/`.
 
@@ -250,8 +250,13 @@ Your shell is waiting for a closing double quote. Finish the quoted string or pr
 
 ## Notes on responsible use
 
-AutoWatch implements only *practical* anti-blocking (polite rate limiting,
+AutoWatch implements only _practical_ anti-blocking (polite rate limiting,
 human-like pacing, session reuse). It does **not** attempt to bypass CAPTCHAs or
 defeat security systems — when a CAPTCHA/checkpoint is detected it pauses that
 source and logs a warning. Review and respect each site's Terms of Service and
 `robots.txt` before scraping.
+
+caffeinate -is env AUTOWATCH_FACEBOOK_HEADLESS=true python main.py --region "San Antonio,
+TX" --watch --interval 600
+
+sqlite3 -header -csv data/vehicles.db "SELECT \* FROM vehicles;" > listings.csv

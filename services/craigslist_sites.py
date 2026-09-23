@@ -21,7 +21,11 @@ from loguru import logger
 from config import get_settings
 
 _SITES_URL = "https://www.craigslist.org/about/sites"
-_LINK_RE = re.compile(r"https?://([a-z0-9-]+)\.craigslist\.org/?", re.I)
+# Current site list: https://www.craigslist.org/area/{slug}
+_AREA_RE = re.compile(r"https?://(?:www\.)?craigslist\.org/area/([a-z0-9-]+)/?", re.I)
+# Legacy list: https://{slug}.craigslist.org
+_SUBDOMAIN_RE = re.compile(r"https?://([a-z0-9-]+)\.craigslist\.org/?", re.I)
+_MIN_CACHED_SITES = 50
 
 
 @dataclass(frozen=True)
@@ -41,6 +45,54 @@ def _normalize(text: str) -> str:
 
 def _token_set(text: str) -> set[str]:
     return {t for t in _normalize(text).split() if t}
+
+
+def _area_slug(href: str) -> str | None:
+    area = _AREA_RE.match(href)
+    if area:
+        return area.group(1).lower()
+    legacy = _SUBDOMAIN_RE.match(href)
+    if not legacy:
+        return None
+    slug = legacy.group(1).lower()
+    if slug in {"www", "web"}:
+        return None
+    return slug
+
+
+def parse_sites_html(html: str) -> list[CraigslistSite]:
+    """Parse the Craigslist worldwide sites page into regional sites."""
+    soup = BeautifulSoup(html, "html.parser")
+    seen: set[str] = set()
+    sites: list[CraigslistSite] = []
+    current_section: str | None = None
+    current_subsection: str | None = None
+
+    for element in soup.select("h1, h2, h3, h4, a[href]"):
+        if element.name in {"h1", "h2"}:
+            current_section = element.get_text(strip=True) or None
+            current_subsection = None
+            continue
+        if element.name in {"h3", "h4"}:
+            current_subsection = element.get_text(strip=True) or None
+            continue
+
+        href = element.get("href", "")
+        slug = _area_slug(href)
+        if not slug or slug in seen:
+            continue
+        seen.add(slug)
+        name = element.get_text(strip=True) or slug
+        sites.append(
+            CraigslistSite(
+                subdomain=slug,
+                name=name,
+                url=f"https://www.craigslist.org/area/{slug}",
+                section=current_section,
+                subsection=current_subsection,
+            )
+        )
+    return sites
 
 
 class CraigslistSiteIndex:
@@ -156,6 +208,12 @@ class CraigslistSiteIndex:
                 )
                 for row in payload["sites"]
             ]
+            if len(sites) < _MIN_CACHED_SITES:
+                logger.warning(
+                    "Craigslist site cache only has {} site(s); refetching",
+                    len(sites),
+                )
+                return None
             logger.debug("Loaded {} Craigslist sites from cache", len(sites))
             return sites
         except Exception as exc:  # noqa: BLE001
@@ -172,41 +230,7 @@ class CraigslistSiteIndex:
         )
         resp.raise_for_status()
 
-        soup = BeautifulSoup(resp.text, "html.parser")
-        seen: set[str] = set()
-        sites: list[CraigslistSite] = []
-        current_section: str | None = None
-        current_subsection: str | None = None
-
-        for element in soup.select("section.body h2, section.body h4, section.body a[href]"):
-            if element.name == "h2":
-                current_section = element.get_text(strip=True) or None
-                current_subsection = None
-                continue
-            if element.name == "h4":
-                current_subsection = element.get_text(strip=True) or None
-                continue
-
-            href = element.get("href", "")
-            match = _LINK_RE.match(href)
-            if not match:
-                continue
-            subdomain = match.group(1).lower()
-            if subdomain in seen:
-                continue
-            seen.add(subdomain)
-            name = element.get_text(strip=True) or subdomain
-            url = f"https://{subdomain}.craigslist.org"
-            sites.append(
-                CraigslistSite(
-                    subdomain=subdomain,
-                    name=name,
-                    url=url,
-                    section=current_section,
-                    subsection=current_subsection,
-                )
-            )
-
+        sites = parse_sites_html(resp.text)
         sites.sort(key=lambda s: s.name.lower())
         self._write_cache(sites)
         logger.info("Indexed {} Craigslist regional sites", len(sites))

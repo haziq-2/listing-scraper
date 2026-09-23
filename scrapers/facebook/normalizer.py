@@ -11,6 +11,12 @@ _PRICE_RE = re.compile(
 )
 _YEAR_RE = re.compile(r"\b(19[5-9]\d|20[0-4]\d)\b")
 _ITEM_ID_RE = re.compile(r"/marketplace/item/(\d+)")
+# Marketplace paints a status chip above the vehicle name.
+_BADGE_RE = re.compile(
+    r"^(just listed|listed today|listed yesterday|pending|sold|price reduced|price drop|new listing)$",
+    re.I,
+)
+_LOCATION_RE = re.compile(r"^.+,\s*[A-Za-z]{2,3}\.?$")
 
 
 def listing_id_from_href(href: str) -> str | None:
@@ -47,22 +53,34 @@ def _normalize_currency(token: str) -> str:
     return token
 
 
+def _is_price_line(line: str) -> bool:
+    return "$" in line or bool(re.search(r"\bUSD\b", line, re.I))
+
+
+def _is_badge(line: str) -> bool:
+    return bool(_BADGE_RE.match(line.strip()))
+
+
 def parse_title(lines: list[str]) -> str | None:
+    """Vehicle name, skipping the 'Just listed' badge, price, and city line."""
+    candidates: list[str] = []
     for line in lines:
-        if "$" in line or re.search(r"\bUSD\b", line, re.I):
+        text = line.strip()
+        if len(text) < 4 or _is_price_line(text) or _is_badge(text):
             continue
-        if len(line.strip()) >= 4:
-            return line.strip()
-    return None
+        candidates.append(text)
+    for text in candidates:
+        if not _LOCATION_RE.match(text):
+            return text
+    return candidates[0] if candidates else None
 
 
 def parse_location(lines: list[str]) -> str | None:
     for line in reversed(lines):
-        if "$" in line:
-            continue
         text = line.strip()
-        if len(text) >= 3:
-            return text
+        if len(text) < 3 or _is_price_line(text) or _is_badge(text):
+            continue
+        return text
     return None
 
 
