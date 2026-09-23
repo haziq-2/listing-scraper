@@ -19,7 +19,7 @@ before. State is kept in a local SQLite database so "new" means new across runs.
   you log in only once; automatic Vehicles category selection when the feed is empty.
 - Accurate new-listing detection through a SQLite upsert keyed on
   `(source, listing_id)`.
-- Optional filters: `--make`, `--model`, `--max-price`, `--min-year`.
+- Optional search: `--make` and `--model` are sent to Craigslist and Facebook, then used again so only matches are reported. `--max-price` and `--min-year` filter what is shown.
 - Continuous `--watch` mode with jittered polling intervals.
 - Structured logging, per-run Facebook metrics, and schema migrations.
 - Practical anti-blocking: stable user agent per Facebook profile, randomized delays,
@@ -61,7 +61,8 @@ python main.py --region "Dallas, TX" --watch
 # Wider Facebook search radius (km)
 python main.py --region "Phoenix, AZ" --radius 120
 
-# With filters (applied before showing new listings)
+# Search the sites for a make/model (also only reports matches)
+python main.py --region "Dallas, TX" --make Nissan --model Altima
 python main.py --region "Austin, TX" --make Toyota --model Camry --max-price 25000 --min-year 2019
 
 # Limit how many listings each source scrapes per run
@@ -259,4 +260,4 @@ source and logs a warning. Review and respect each site's Terms of Service and
 caffeinate -is env AUTOWATCH_FACEBOOK_HEADLESS=true python main.py --region "San Antonio,
 TX" --watch --interval 600
 
-sqlite3 -header -csv data/vehicles.db "SELECT \* FROM vehicles;" > listings.csv
+sqlite3 -header -csv data/vehicles.db "SELECT * FROM vehicles;" > listings.csv

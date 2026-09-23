@@ -11,7 +11,7 @@ random delays, exponential backoff retries, and CAPTCHA detection.
 from __future__ import annotations
 
 import re
-from urllib.parse import urljoin
+from urllib.parse import urlencode, urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -34,6 +34,15 @@ _PRICE_RE = re.compile(r"[\d,]+")
 _YEAR_RE = re.compile(r"\b(19[5-9]\d|20[0-4]\d)\b")
 
 
+def craigslist_search_url(subdomain: str, category: str = "cta", query: str | None = None) -> str:
+    """Cars+trucks search for a Craigslist area, optionally narrowed by keywords."""
+    params: dict[str, str] = {"cat": category, "sort": "date"}
+    text = (query or "").strip()
+    if text:
+        params["query"] = text
+    return f"https://www.craigslist.org/search/area/{subdomain}?{urlencode(params)}"
+
+
 class CraigslistScraper:
     """Scrapes vehicle listings from a city's Craigslist site."""
 
@@ -53,14 +62,11 @@ class CraigslistScraper:
             "Connection": "keep-alive",
         }
 
-    def scrape(self, city: ResolvedCity) -> list[VehicleListing]:
+    def scrape(self, city: ResolvedCity, query: str | None = None) -> list[VehicleListing]:
         """Return listings discovered for the resolved city (sequential)."""
         results: dict[str, VehicleListing] = {}
         for path, channel in _SEARCH_PATHS:
-            url = (
-                f"https://www.craigslist.org/search/area/{city.craigslist_subdomain}"
-                f"?cat={path}&sort=date"
-            )
+            url = craigslist_search_url(city.craigslist_subdomain, path, query=query)
             logger.info("Craigslist scraping {} listings: {}", channel, url)
             try:
                 html = self._fetch(url)

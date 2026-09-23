@@ -95,8 +95,16 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         help="Log in to Facebook once (visible browser), save session, and exit.",
     )
 
-    parser.add_argument("--make", default=None, help="Filter by make, e.g. Toyota")
-    parser.add_argument("--model", default=None, help="Filter by model, e.g. Camry")
+    parser.add_argument(
+        "--make",
+        default=None,
+        help="Search Craigslist and Facebook for this make, e.g. Nissan",
+    )
+    parser.add_argument(
+        "--model",
+        default=None,
+        help="Search Craigslist and Facebook for this model, e.g. Altima",
+    )
     parser.add_argument("--max-price", type=float, default=None, help="Maximum price filter")
     parser.add_argument("--min-year", type=int, default=None, help="Minimum model year filter")
 
@@ -158,15 +166,19 @@ class AutoWatch:
         scraped: list[VehicleListing] = []
 
         # Sequential scraping only (no parallelism) per anti-blocking policy.
+        query = self.filters.search_query()
+        if query:
+            logger.info("Searching for '{}'", query)
+
         if self.run_craigslist:
             try:
-                scraped.extend(CraigslistScraper(self.settings).scrape(region))
+                scraped.extend(CraigslistScraper(self.settings).scrape(region, query=query))
             except Exception as exc:  # noqa: BLE001
                 logger.error("Craigslist scraper crashed: {}", exc)
 
         if self.run_facebook:
             try:
-                fb_result = FacebookScraper(self.settings).scrape_with_metrics(region)
+                fb_result = FacebookScraper(self.settings).scrape_with_metrics(region, query=query)
                 scraped.extend(fb_result.listings)
                 if fb_result.error:
                     logger.warning("Facebook completed with error: {}", fb_result.error)

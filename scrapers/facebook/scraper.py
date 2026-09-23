@@ -62,14 +62,14 @@ class FacebookScraper:
         )
         self._navigator = MarketplaceNavigator()
 
-    def scrape(self, region: ResolvedRegion) -> list[VehicleListing]:
+    def scrape(self, region: ResolvedRegion, query: str | None = None) -> list[VehicleListing]:
         """Scrape listings; returns empty list on failure (logs metrics)."""
-        result = self.scrape_with_metrics(region)
+        result = self.scrape_with_metrics(region, query=query)
         return result.listings
 
-    def scrape_with_metrics(self, region: ResolvedRegion) -> ScrapeResult:
+    def scrape_with_metrics(self, region: ResolvedRegion, query: str | None = None) -> ScrapeResult:
         metrics = ScrapeMetrics()
-        search_url = build_search_url(region)
+        search_url = build_search_url(region, query=query)
         logger.info("Facebook scraping: {}", search_url)
 
         try:
@@ -140,10 +140,6 @@ class FacebookScraper:
             logger.warning("{}", exc)
             return False
 
-        if self._session._has_listings(page):
-            self._session.log_auth_state(metrics, page, context)
-            return True
-
         if not self._goto_with_retry(page, search_url, metrics):
             return False
 
@@ -165,7 +161,9 @@ class FacebookScraper:
             metrics.auth_state = AuthState.AUTHENTICATED
             return True
 
-        if self._navigator.ensure_vehicles_feed(page, region):
+        # A keyword search must stay on /search/. Falling back to /vehicles
+        # drops the query and returns the unfiltered feed.
+        if "/search" not in search_url and self._navigator.ensure_vehicles_feed(page, region):
             metrics.auth_state = AuthState.AUTHENTICATED
             return True
 

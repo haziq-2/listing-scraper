@@ -25,6 +25,11 @@ class SearchFilters:
     max_price: float | None = None
     min_year: int | None = None
 
+    def search_query(self) -> str | None:
+        """Text sent to Craigslist and Facebook so they search this car, not the whole feed."""
+        parts = [part.strip() for part in (self.make, self.model) if part and part.strip()]
+        return " ".join(parts) or None
+
     def matches(self, listing: VehicleListing) -> bool:
         if self.make and (listing.make or "").lower() != self.make.lower():
             # Fall back to title match when structured make is missing.

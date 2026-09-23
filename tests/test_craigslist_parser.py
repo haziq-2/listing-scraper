@@ -1,6 +1,6 @@
 """Craigslist search-result parsing for current and legacy markup."""
 
-from scrapers.craigslist import CraigslistScraper
+from scrapers.craigslist import CraigslistScraper, craigslist_search_url
 from services.city_resolver import ResolvedRegion
 
 
@@ -52,3 +52,11 @@ def test_parse_legacy_numeric_urls():
     assert len(listings) == 1
     assert listings[0].listing_id == "7890123456"
     assert listings[0].price == 9900
+
+
+def test_search_url_includes_query():
+    url = craigslist_search_url("dallas", query="Nissan Altima")
+    assert url.startswith("https://www.craigslist.org/search/area/dallas?")
+    assert "cat=cta" in url
+    assert "query=Nissan+Altima" in url
+    assert "sort=date" in url
