@@ -120,6 +120,15 @@ class Settings(BaseModel):
     craigslist_fetch_details: bool = Field(default_factory=lambda: _env_bool("AUTOWATCH_CRAIGSLIST_FETCH_DETAILS", False))
     craigslist_request_timeout: int = Field(default_factory=lambda: _env_int("AUTOWATCH_CRAIGSLIST_REQUEST_TIMEOUT", 25))
 
+    # --- OfferUp (US only; cars & trucks category 5.1) ---
+    offerup_enabled: bool = Field(default_factory=lambda: _env_bool("AUTOWATCH_OFFERUP_ENABLED", True))
+    offerup_max_listings: int = Field(default_factory=lambda: _env_int("AUTOWATCH_OFFERUP_MAX_LISTINGS", 100))
+    offerup_page_size: int = Field(default_factory=lambda: _env_int("AUTOWATCH_OFFERUP_PAGE_SIZE", 50))
+    offerup_category_id: str = Field(default_factory=lambda: _env_str("AUTOWATCH_OFFERUP_CATEGORY_ID", "5.1"))
+    offerup_min_delay: float = Field(default_factory=lambda: _env_float("AUTOWATCH_OFFERUP_MIN_DELAY", 2.0))
+    offerup_max_delay: float = Field(default_factory=lambda: _env_float("AUTOWATCH_OFFERUP_MAX_DELAY", 5.0))
+    offerup_request_timeout: int = Field(default_factory=lambda: _env_int("AUTOWATCH_OFFERUP_REQUEST_TIMEOUT", 25))
+
     # --- Facebook Marketplace ---
     facebook_enabled: bool = Field(default_factory=lambda: _env_bool("AUTOWATCH_FACEBOOK_ENABLED", True))
     facebook_max_listings: int = Field(default_factory=lambda: _env_int("AUTOWATCH_FACEBOOK_MAX_LISTINGS", 100))

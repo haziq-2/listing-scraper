@@ -13,10 +13,11 @@ class Source(str, Enum):
 
     CRAIGSLIST = "craigslist"
     FACEBOOK = "facebook"
+    OFFERUP = "offerup"
 
     @property
     def label(self) -> str:
-        return {"craigslist": "Craigslist", "facebook": "Facebook"}[self.value]
+        return {"craigslist": "Craigslist", "facebook": "Facebook", "offerup": "OfferUp"}[self.value]
 
 
 def _utcnow() -> datetime:

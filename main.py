@@ -1,7 +1,7 @@
 """AutoWatch CLI entrypoint.
 
-Discovers newly-listed vehicles on Facebook Marketplace and Craigslist for a
-given city, persists what it has seen, and reports only the new listings.
+Discovers newly-listed vehicles on Facebook Marketplace, Craigslist, and OfferUp
+for a given city, persists what it has seen, and reports only the new listings.
 
 Examples:
     python main.py --region "Dallas, TX"
@@ -25,6 +25,7 @@ from database import Database
 from models import VehicleListing
 from scrapers.craigslist import CraigslistScraper
 from scrapers.facebook import FacebookScraper
+from scrapers.offerup import OfferUpScraper
 from services.city_resolver import RegionResolver, ResolvedRegion
 from services.deduplicator import Deduplicator, ScanStats, SearchFilters
 from services.notifier import ConsoleNotifier
@@ -48,7 +49,7 @@ def configure_logging(settings: Settings) -> None:
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         prog="autowatch",
-        description="Monitor newly listed vehicles on Facebook Marketplace and Craigslist.",
+        description="Monitor newly listed vehicles on Facebook Marketplace, Craigslist, and OfferUp.",
     )
     parser.add_argument(
         "--region",
@@ -64,7 +65,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     )
     parser.add_argument(
         "--source",
-        choices=("craigslist", "facebook"),
+        choices=("craigslist", "facebook", "offerup"),
         default=None,
         help="Filter --list output by source.",
     )
@@ -98,18 +99,19 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--make",
         default=None,
-        help="Search Craigslist and Facebook for this make, e.g. Nissan",
+        help="Search Craigslist, Facebook, and OfferUp for this make, e.g. Nissan",
     )
     parser.add_argument(
         "--model",
         default=None,
-        help="Search Craigslist and Facebook for this model, e.g. Altima",
+        help="Search Craigslist, Facebook, and OfferUp for this model, e.g. Altima",
     )
     parser.add_argument("--max-price", type=float, default=None, help="Maximum price filter")
     parser.add_argument("--min-year", type=int, default=None, help="Minimum model year filter")
 
     parser.add_argument("--no-facebook", action="store_true", help="Skip Facebook Marketplace this run.")
     parser.add_argument("--no-craigslist", action="store_true", help="Skip Craigslist this run.")
+    parser.add_argument("--no-offerup", action="store_true", help="Skip OfferUp this run.")
 
     args = parser.parse_args(argv)
     if args.list:
@@ -150,6 +152,7 @@ class AutoWatch:
         if args.max_listings is not None:
             self.settings.craigslist_max_listings = args.max_listings
             self.settings.facebook_max_listings = args.max_listings
+            self.settings.offerup_max_listings = args.max_listings
         self.db = Database(settings.db_path)
         self.deduplicator = Deduplicator(self.db)
         self.notifier = ConsoleNotifier()
@@ -161,6 +164,7 @@ class AutoWatch:
         )
         self.run_facebook = settings.facebook_enabled and not args.no_facebook
         self.run_craigslist = not args.no_craigslist
+        self.run_offerup = settings.offerup_enabled and not args.no_offerup
 
     def run_once(self, region: ResolvedRegion) -> list[VehicleListing]:
         scraped: list[VehicleListing] = []
@@ -175,6 +179,12 @@ class AutoWatch:
                 scraped.extend(CraigslistScraper(self.settings).scrape(region, query=query))
             except Exception as exc:  # noqa: BLE001
                 logger.error("Craigslist scraper crashed: {}", exc)
+
+        if self.run_offerup:
+            try:
+                scraped.extend(OfferUpScraper(self.settings).scrape(region, query=query))
+            except Exception as exc:  # noqa: BLE001
+                logger.error("OfferUp scraper crashed: {}", exc)
 
         if self.run_facebook:
             try:

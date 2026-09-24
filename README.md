@@ -74,10 +74,14 @@ python main.py --region "Dallas, TX" --no-facebook
 # Facebook only
 python main.py --region "Dallas, TX" --no-craigslist
 
+# OfferUp only (US locations; cars & trucks)
+python main.py --region "Dallas, TX" --no-facebook --no-craigslist
+
 # View all stored vehicles from the database
 python main.py --list
 python main.py --list --source craigslist
 python main.py --list --source facebook --limit 20
+python main.py --list --source offerup --limit 20
 
 # --city is an alias for --region
 python main.py --city "Dallas, TX"
@@ -155,6 +159,7 @@ All settings live in `config.py` and can be overridden via environment variables
 ├── utils.py                     # Delays, UA rotation, retries
 ├── scrapers/
 │   ├── craigslist.py            # requests + BeautifulSoup
+│   ├── offerup.py               # OfferUp cars & trucks feed
 │   └── facebook/                # Modular Playwright scraper
 │       ├── scraper.py           # Orchestrator
 │       ├── navigation.py        # Vehicles category + URL handling
